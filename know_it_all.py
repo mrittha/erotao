@@ -3,9 +3,9 @@ __author__ = 'mrittha'
 import math
 import random
 import codecs
-
+import json
 import wikipedia
-
+import os
 import clozure
 import talker
 import chunk_o_learning
@@ -17,7 +17,10 @@ def study_questions(questions, rate):
     points = 0
     to_use = max(1, math.trunc(len(questions) * rate))
     total_points = to_use
-    talker.print_and_talk("I will ask " + str(total_points) + " questions.")
+    if total_points > 1:
+        talker.print_and_talk("I will ask " + str(total_points) + " questions.")
+    else:
+        talker.print_and_talk("I will ask " + str(total_points) + " question.")
     for question in random.sample(questions, to_use):
         talker.print_and_talk_clozure(question['clozure'])
         answer = talker.ask('Fill in the blank:')
@@ -32,16 +35,15 @@ def study_questions(questions, rate):
     return points, total_points
 
 
-def fetch_article(subject):
-    talker.print_and_talk("You want to learn about:", subject)
-    talker.print_and_talk("I will ask wikipedia for the best suggestion")
-    suggestions = wikipedia.search(subject)
-    talker.print_and_talk(suggestions[0], "was suggested by wikipedia.")
-    article = wikipedia.page(suggestions[0])
-    if article:
-        talker.print_and_talk("I have loaded the article on", suggestions[0])
-    # print article.content
-    return article
+def fetch_subject_file(subject):
+    subject = subject.replace(' ', '_').lower()
+    subject_file = 'subjects/' + subject + '.json'
+    try:
+        with open(subject_file) as f:
+            data = f.read()
+            return json.loads(data)
+    except IOError as e:
+        return None
 
 
 def study_text(sentences):
@@ -51,8 +53,7 @@ def study_text(sentences):
     return study_questions(questions, 0.75)
 
 
-def study_article(article):
-    chunk = chunk_o_learning.make_chunk(article)
+def study_chunk(chunk):
     for section_title in chunk['section_list']:
         section = chunk['sections'][section_title]
         section['points'] = (0, 0)
@@ -72,6 +73,7 @@ def study_article(article):
             new_points = study_text(paragraph)
             old_points = section.get('points', (0, 0))
             section['points'] = (old_points[0] + new_points[0], old_points[1] + new_points[1])
+            chunk_o_learning.update_chunk(chunk)
 
 
 def study_file(filename):
@@ -80,12 +82,31 @@ def study_file(filename):
     study_text(text)
 
 
+def get_suggestion(subject):
+    suggestions = wikipedia.search(subject)
+    return suggestions[0]
+
+
 def study_subject(subject):
-    article = fetch_article(subject)
-    if article:
-        study_article(article)
+    talker.print_and_talk("You want to learn about:", subject)
+    chunk = fetch_subject_file(subject)
+    if not chunk:
+        talker.print_and_talk("I will ask wikipedia for the best suggestion")
+        suggestion = get_suggestion(subject)
+        talker.print_and_talk(suggestion, "was suggested by wikipedia.")
+        chunk = fetch_subject_file(suggestion)
+        if not chunk:
+            article = wikipedia.page(suggestion)
+            if not article:
+                talker.print_and_talk("Sorry, I couldn't find an article on", suggestion)
+                return
+            chunk = chunk_o_learning.make_chunk(article)
+            talker.print_and_talk("I have loaded the article on", suggestion)
+        else:
+            talker.print_and_talk("I found a local file for", suggestion)
     else:
-        talker.print_and_talk("Sorry, I couldn't find an article on", subject)
+        talker.print_and_talk("I found a local file for", subject)
+    study_chunk(chunk)
 
 
 def learn_all_the_things():
@@ -101,6 +122,6 @@ def learn_all_the_things():
 if __name__ == "__main__":
     # print wikipedia.search("harry potter")
     # study_file("text/saturn.txt")
-    talker.TALK = False
+    # talker.TALK = False
     # wikipedia.set_lang("simple")
     learn_all_the_things()
