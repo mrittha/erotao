@@ -10,7 +10,7 @@ import unicodedata
 if __name__ == "__main__":
     G = nx.Graph()
     nodes={}
-    search_term="java programming language"
+    search_term="knot theory"
     topics = wikipedia.search(search_term)
 
     main_root=topics[0].encode('ascii', 'xmlcharrefreplace')
