@@ -3,7 +3,7 @@ __author__ = 'mritthaler'
 from gensim import models
 import numpy as np
 import nltk
-from pattern.en import parse,tag,tokenize,pprint
+from pattern.en import parse,tag,tokenize,pprint,lemma
 
 
 def find_relation_tags(a_parse):
@@ -77,9 +77,16 @@ def bits_to_words(bits):
     return [bit_to_word(bit) for bit in bits]
 
 def basic_sentence_to_question(basic_sentence):
-    sbj=basic_sentence['SBJ']
-    obj=basic_sentence['OBJ']
-    verb=basic_sentence['VP']
+    sbj=' '.join(bits_to_words(basic_sentence['SBJ']))
+    obj=' '.join(bits_to_words(basic_sentence['OBJ']))
+    verb=' '.join(bits_to_words(basic_sentence['VP']))
+
+    if verb=='is':
+        return "What is "+sbj.lower()+"? "+obj
+
+    return "What does "+sbj.lower()+" "+lemma(verb.lower())+"?"+" "+obj
+
+
 
 
 
@@ -98,7 +105,7 @@ for sentence in sentences:
     print sentence
     basic_sentences=basic_sentences+gather_question_bits(sentence)
 
-#basic_sentences=convert_pp(basic_sentences)
+basic_sentences=convert_pp(basic_sentences)
 for sentence in basic_sentences:
-    print sentence
+    print basic_sentence_to_question(sentence)
 
