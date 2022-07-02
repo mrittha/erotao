@@ -2,17 +2,17 @@ __author__ = 'mrittha'
 
 import re
 import textwrap
-import pyttsx
+import pyttsx3
 
 
 def make_speech_engine():
-    engine = pyttsx.init()
-    engine.setProperty('rate', 150)
+    engine = pyttsx3.init()
+    engine.setProperty('rate', 300)
     return engine
 
 
-SPEAKER = make_speech_engine()
-TALK = True
+SPEAKER = None #make_speech_engine()
+TALK = False
 
 
 def speak(engine, text):
@@ -29,22 +29,22 @@ def t_from_args(args):
 
 def ask(*args):
     text = t_from_args(args)
-    print textwrap.fill(text,80),
+    print(textwrap.fill(text,80),)
     speak(SPEAKER, text)
-    answer = raw_input(":")
+    answer = input(":")
     return answer
 
 
 def print_and_talk(*args):
     text = t_from_args(args)
-    print textwrap.fill(text,80)
+    print(textwrap.fill(text,80))
     speak(SPEAKER, text)
 
 
 def print_and_talk_clozure(*args):
     text = t_from_args(args)
     talk_text = re.sub('_+', 'blank', text)
-    print textwrap.fill(text,80)
+    print(textwrap.fill(text,80))
     speak(SPEAKER, talk_text)
 
 

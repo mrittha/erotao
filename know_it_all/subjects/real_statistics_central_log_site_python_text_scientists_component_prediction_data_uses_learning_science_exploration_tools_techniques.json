@@ -1,0 +1,732 @@
+{
+  "section_list": [
+    "real statistics central log site python text scientists component prediction data uses learning science exploration tools techniques", 
+    "real statistics log environment python text site data libraries science tools techniques", 
+    "real statistics python text taking computers problems data focusing full science tools techniques", 
+    "real statistics wide text computers problems decisions data focusing range critical science analyze tools techniques", 
+    "real statistics text supported decisions data thinking critical aspect science tools reasoning techniques", 
+    "real statistics plotting python text data everyone books critical aspect science example classics tools reasoning techniques", 
+    "real statistics name python text focus data read generated right books interpreting science details tools example worry techniques", 
+    "chapter text number effect questions periods", 
+    "chapter currently name httpwwwgutenbergorgcacheepubpgtxt text list number chapters bound book table huckfinnchapters periods", 
+    "chapter around tiptoeing text well number chapters trees table path along iii went periods", 
+    "chapter shut look well number around ther door turned man along periods", 
+    "chapter plot little huck numerals sentence sun jim number waked length right place periods characters talk wanted judged roman women", 
+    "chapter plot little huck name many jim number times length characters tom mentioned appears women", 
+    "chapter plot little huck titles witho written jim number spelled christmas length tablewithcolumnchapters wake periods characters table hardly playing women", 
+    "chapter hard take text number finds neighborly five dear world burdens seem six periods", 
+    "chapter plot little huck information meg make jim people number predictions amy length laurie periods characters counts beth women", 
+    "chapter plot little huck information meg make jim people number predictions amy length laurie periods characters new counts beth women", 
+    "chapter plot little huck information meg make jim people number predictions amy length laurie periods characters counts beth women", 
+    "chapter plot huck symbol points number fewer lens length periods characters", 
+    "chapter plot little huck lens vice number fewer shorter length periods characters sentences tend women", 
+    "chapter plot little huck anything represents simple variables jim number two dots length periods characters tell women", 
+    "chapter plot little huck around represents straight points number length periods characters clustered line women", 
+    "chapter plot little huck something straight jim number roughly looking length points periods characters contain clustered line shows women", 
+    "chapter text number effect questions periods", 
+    "coffee death group individuals would questions science chocolate penalty randomized state experiment treatment groups outcome data study", 
+    "map miasmas bad deaths broad pump street", 
+    "map parts theory deaths broad could bad houses pump street miasmas city", 
+    "map miasmas bad deaths broad pump street", 
+    "map death handle district deaths broad study recorded snow drew water houses pump street black cholera using went mounted", 
+    "map flies streets deaths ends broad less snow dead brewery water houses pump street cholera layout get rupert", 
+    "map eley handle theory deaths broad hampstead snow mrs isolated water houses pump street cholera provided piece leafy support quite", 
+    "map handle deaths epidemics broad sometimes snow disease water houses pump street questions cholera scientists simple", 
+    "map use murder deaths broad average compare water pump street scientists researchers today states", 
+    "map use murder rate deaths broad average companies supplied water houses pump street difference company states", 
+    "map lambeth difference deaths whatever broad company companies supplied water houses pump street receiving sewage", 
+    "map lambeth differences would deaths broad supply supplied factory water houses pump street groups difference", 
+    "map differences would deaths broad factory water houses pump street groups cholerae vibrio pacini made miasmatists", 
+    "coffee group drinkers cancer randomized contained experiment lung treatment groups smoking cause study", 
+    "coffee group drinkers cancer randomized contained experiment lung treatment groups showed smoking cause study", 
+    "coffee group drinkers cancer randomized contained experiment lung treatment groups smoking cause study", 
+    "program progresa group villages money school children randomized experiment treatment groups enrollment study", 
+    "program progresa group villages money school used children randomized experiment treatment groups enrollment welfare study", 
+    "program progresa group villages money school children randomized experiment treatment groups enrollment study", 
+    "group without allows choice randomized experiment treatment groups method quite study", 
+    "group without allows randomized experiment treatment groups method quite study choice", 
+    "group without allows choice randomized experiment treatment groups method quite study", 
+    "map miasmas bad deaths broad pump street", 
+    "chapter text number periods"
+  ], 
+  "sections": {
+    "chapter around tiptoeing text well number chapters trees table path along iii went periods": {
+      "full_title": "NO TITLE:chapter around tiptoeing text well number chapters trees table path along iii went periods", 
+      "paragraphs": [
+        [
+          "While a computer can not understand the text of a book , we can still use it to provide us with some insight into the structure of the text .", 
+          "The name huck_finn_chapters is currently bound to a list of all the chapters in the book .", 
+          "We can place those chapters into a table to see how each begins . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "chapter around tiptoeing text well number chapters trees table path along iii went periods"
+    }, 
+    "chapter currently name httpwwwgutenbergorgcacheepubpgtxt text list number chapters bound book table huckfinnchapters periods": {
+      "full_title": "NO TITLE:chapter currently name httpwwwgutenbergorgcacheepubpgtxt text list number chapters bound book table huckfinnchapters periods", 
+      "paragraphs": [
+        [
+          "In Python , a name can not contain any spaces , and so we will of often use an underscore _ to stand in for a space .", 
+          "The = in the lines below give a name on the left to the result of some computation described on the right .", 
+          "A uniform resource locator or URL is an address on the Internet for some content ; in this case , the text of a book .", 
+          "# Read two books , fast !", 
+          "huck_finn_url = ' http://www.gutenberg.org/cache/epub/76/pg76.txt '  huck_finn_text = read_url(huck_finn_url )  huck_finn_chapters = huck_finn_text.split('CHAPTER ' )[44 : ]  little_women_url = ' http://www.gutenberg.org/cache/epub/514/pg514.txt '  little_women_text = read_url(little_women_url )  little_women_chapters = little_women_text.split('CHAPTER ' )[1 : ] "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "chapter currently name httpwwwgutenbergorgcacheepubpgtxt text list number chapters bound book table huckfinnchapters periods"
+    }, 
+    "chapter hard take text number finds neighborly five dear world burdens seem six periods": {
+      "full_title": "NO TITLE:chapter hard take text number finds neighborly five dear world burdens seem six periods", 
+      "paragraphs": [
+        [
+          "In this book , chapter numbers are spelled out and chapter titles are written in all capital letters .", 
+          "# The chapters of Little Women , in a table  Table().with_column('Chapters ' , little_women_chapters )  Chapters  ONE PLAYING PILGRIMS \" Christmas wo n't be Christmas witho ...  TWO A MERRY CHRISTMAS Jo was the first to wake in the gr ...  THREE THE LAURENCE BOY \" Jo !", 
+          "Jo !", 
+          "Where are you ? \"", 
+          "cried Me ...  FOUR BURDENS \" Oh , dear , how hard it does seem to take up ...  FIVE BEING NEIGHBORLY \" What in the world are you going t ...  SIX BETH FINDS"
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "chapter hard take text number finds neighborly five dear world burdens seem six periods"
+    }, 
+    "chapter plot huck symbol points number fewer lens length periods characters": {
+      "full_title": "NO TITLE:chapter plot huck symbol points number fewer lens length periods characters", 
+      "paragraphs": [
+        [
+          "In some situations , the relationships between quantities allow us to make predictions .", 
+          "This text will explore how to make accurate predictions based on incomplete information and develop methods for combining multiple sources of uncertain information to make decisions .", 
+          "As an example of visualizing information derived from multiple sources , let us first use the computer to get some information that would be tedious to acquire by hand .", 
+          "Another kind of character? "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "chapter plot huck symbol points number fewer lens length periods characters"
+    }, 
+    "chapter plot little huck anything represents simple variables jim number two dots length periods characters tell women": {
+      "full_title": "NO TITLE:chapter plot little huck anything represents simple variables jim number two dots length periods characters tell women", 
+      "paragraphs": [
+        [
+          "the shorter the chapter , the fewer sentences there tend to be , and vice versa .", 
+          "The relation is not entirely predictable , however , as sentences are of varying lengths and can involve other punctuation such as question marks .", 
+          "# The counts for Huckleberry Finn  chars_periods_HF  HF Chapter Length  Number of Periods  7026  66  11982  117  8529  72  6799  84  8166  91  14550  125  13218  127  22208  249  8081  71  7036  70  ... ( 33 rows omitted )  Here are the corresponding data for Little Women .", 
+          "# The counts for Little Women  chars_periods_LW  LW Chapter Length  Number of Periods  21759  189  22148  188  20558  231  25526  195  23395  255  14622  140  14431  131  22476  214  33767  337  18508  185  ... ( 37 rows omitted )  You can see that the chapters of Little Women are in general longer than those of Huckleberry Finn ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "chapter plot little huck anything represents simple variables jim number two dots length periods characters tell women"
+    }, 
+    "chapter plot little huck around represents straight points number length periods characters clustered line women": {
+      "full_title": "NO TITLE:chapter plot little huck around represents straight points number length periods characters clustered line women", 
+      "paragraphs": [
+        [
+          "Let us see if these two simple variables ?", 
+          "the length and number of periods in each chapter ?", 
+          "can tell us anything more about the two books .", 
+          "One way for us to do this is to plot both sets of data on the same axes .", 
+          "In the plot below , there is a dot for each chapter in each book .", 
+          "Blue dots correspond to Huckleberry Finn and gold dots to Little Women ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "chapter plot little huck around represents straight points number length periods characters clustered line women"
+    }, 
+    "chapter plot little huck information meg make jim people number predictions amy length laurie periods characters counts beth women": {
+      "full_title": "NO TITLE:chapter plot little huck information meg make jim people number predictions amy length laurie periods characters counts beth women", 
+      "paragraphs": [
+        [
+          "# Counts of names in the chapters of Little Women  people = [ ' Amy ' , ' Beth ' , ' Jo ' , ' Laurie ' , ' Meg ' ]  people_counts = { pp : np.char.count(little_women_chapters , pp ) for pp in people }  counts = Table().with_columns([  ' Amy ' , people_counts['Amy ' ] ,  ' Beth ' , people_counts['Beth ' ] ,  ' Jo ' , people_counts['Jo ' ] ,  ' Laurie ' , people_counts['Laurie ' ] ,  ' Meg ' , people_counts['Meg ' ]  ] )  # Plot the cumulative counts .", 
+          "cum_counts = counts.cumsum().with_column('Chapter ' , np.arange(1 , 48 , 1 ) )  cum_counts.plot(column_for_xticks=5 )  plots.title('Cumulative Number of Times Name Appears ' ) ;  Laurie is a young man who marries one of the girls in the end .", 
+          "See if you can use the plots to guess which one . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "chapter plot little huck information meg make jim people number predictions amy length laurie periods characters counts beth women"
+    }, 
+    "chapter plot little huck information meg make jim people number predictions amy length laurie periods characters new counts beth women": {
+      "full_title": "NO TITLE:chapter plot little huck information meg make jim people number predictions amy length laurie periods characters new counts beth women", 
+      "paragraphs": [
+        [
+          "SEVEN AMY 'S VALLEY OF HUMILIATION \" That boy is a perfect ...  EIGHT JO MEETS APOLLYON \" Girls , where are you going ? \"", 
+          "as ...  NINE MEG GOES TO VANITY FAIR \" I do think it was the most ...  TEN THE P.C.", 
+          "AND P.O.", 
+          "As spring came on , a new set of am ...  ... ( 37 rows omitted )  We can track the mentions of main characters to learn about the plot of this book as well .", 
+          "The protagonist Jo interacts with her sisters Meg , Beth , and Amy regularly , up until Chapter 27 when she moves to New York alone . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "chapter plot little huck information meg make jim people number predictions amy length laurie periods characters new counts beth women"
+    }, 
+    "chapter plot little huck lens vice number fewer shorter length periods characters sentences tend women": {
+      "full_title": "NO TITLE:chapter plot little huck lens vice number fewer shorter length periods characters sentences tend women", 
+      "paragraphs": [
+        [
+          "In the context of novels , the word \" character \" has a second meaning : a printed symbol such as a letter or number or punctuation symbol .", 
+          "Here , we ask the computer to count the number of characters and the number of periods in each chapter of both books .", 
+          "# In each chapter , count the number of all characters ;  # call this the \" length \" of the chapter .", 
+          "# Also count the number of periods .", 
+          "chars_periods_HF = Table().with_columns([  ' HF Chapter Length ' , [ len(s ) for s in huck_finn_chapters ] ,  ' Number of Periods ' , np.char.count(huck_finn_chapters , ' . '", 
+          ")  ] )  chars_periods_LW = Table().with_columns([  ' LW Chapter Length ' , [ len(s ) for s in little_women_chapters ] ,  ' Number of Periods ' , np.char.count(little_women_chapters , ' . '", 
+          ")  ] )  Here are the data for Huckleberry Finn .", 
+          "Each row of the table corresponds to one chapter of the novel and displays the number of characters as well as the number of periods in the chapter .", 
+          "Not surprisingly , chapters with fewer characters also tend to have fewer periods , in general ?"
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "chapter plot little huck lens vice number fewer shorter length periods characters sentences tend women"
+    }, 
+    "chapter plot little huck name many jim number times length characters tom mentioned appears women": {
+      "full_title": "NO TITLE:chapter plot little huck name many jim number times length characters tom mentioned appears women", 
+      "paragraphs": [
+        [
+          "VIII.", 
+          "THE sun was up so high when I waked that I judged ...  IX.", 
+          "I wanted to go and look at a place right about the m ...  X. AFTER breakfast I wanted to talk about the dead man a ...  ... ( 33 rows omitted )  Each chapter begins with a chapter number in Roman numerals , followed by the first sentence of the chapter .", 
+          "Project Gutenberg has printed the first word of each chapter in upper case .", 
+          "Literary Characters?", 
+          "The book describes a journey that Huck and Jim take along the Mississippi River .", 
+          "Tom Sawyer joins them towards the end as the action heats up .", 
+          "We can quickly visualize how many times these characters have each been mentioned at any point in the book .", 
+          "# Count how many times the names Jim , Tom , and Huck appear in each chapter .", 
+          "counts = Table().with_columns([  ' Jim ' , np.char.count(huck_finn_chapters , ' Jim ' ) ,  ' Tom ' , np.char.count(huck_finn_chapters , ' Tom ' ) ,  ' Huck ' , np.char.count(huck_finn_chapters , ' Huck ' )  ] )  # Plot the cumulative counts :  # how many times in Chapter 1 , how many times in Chapters 1 and 2 , and so on .", 
+          "cum_counts = counts.cumsum().with_column('Chapter ' , np.arange(1 , 44 , 1 ) )  cum_counts.plot(column_for_xticks=3 )  plots.title('Cumulative Number of Times Name Appears ' )"
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "chapter plot little huck name many jim number times length characters tom mentioned appears women"
+    }, 
+    "chapter plot little huck numerals sentence sun jim number waked length right place periods characters talk wanted judged roman women": {
+      "full_title": "NO TITLE:chapter plot little huck numerals sentence sun jim number waked length right place periods characters talk wanted judged roman women", 
+      "paragraphs": [
+        [
+          "WELL , three or four months run along , and it was wel ...  V. I had shut the door to .", 
+          "Then I turned around and ther ...  VI.", 
+          "WELL , pretty soon the old man was up and around agai ...  VII. \"", 
+          "GIT up !", 
+          "What you ' bout ? \"", 
+          "I opened my eyes and look ... "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "chapter plot little huck numerals sentence sun jim number waked length right place periods characters talk wanted judged roman women"
+    }, 
+    "chapter plot little huck something straight jim number roughly looking length points periods characters contain clustered line shows women": {
+      "full_title": "NO TITLE:chapter plot little huck something straight jim number roughly looking length points periods characters contain clustered line shows women", 
+      "paragraphs": [
+        [
+          "The horizontal axis represents the number of periods and the vertical axis represents the number of characters .", 
+          "plots.figure(figsize=(10,10 ) )  plots.scatter(chars_periods_hf[1 ] , chars_periods_hf[0 ] , color='darkblue ' )  plots.scatter(chars_periods_lw[1 ] , chars_periods_lw[0 ] , color='gold ' )  plots.xlabel('Number of periods in chapter ' )  plots.ylabel('Number of characters in chapter ' ) ;  The plot shows us that many but not all of the chapters of Little Women are longer than those of Huckleberry Finn , as we had observed by just looking at the numbers .", 
+          "But it also shows us something more .", 
+          "Notice how the blue points are roughly clustered around a straight line , as are the yellow points .", 
+          "Moreover , it looks as though both colors of points might be clustered around the same straight line .", 
+          "Now look at all the chapters that contain about 100 periods ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "chapter plot little huck something straight jim number roughly looking length points periods characters contain clustered line shows women"
+    }, 
+    "chapter plot little huck titles witho written jim number spelled christmas length tablewithcolumnchapters wake periods characters table hardly playing women": {
+      "full_title": "NO TITLE:chapter plot little huck titles witho written jim number spelled christmas length tablewithcolumnchapters wake periods characters table hardly playing women", 
+      "paragraphs": [
+        [
+          ";  In the plot above , the horizontal axis shows chapter numbers and the vertical axis shows how many times each character has been mentioned upto and including that chapter .", 
+          "You can see that Jim is a central character by the large number of times his name appears .", 
+          "Notice how Tom is hardly mentioned for much of the book until he arrives and joins Huck and Jim , after Chapter 30 .", 
+          "His curve and Jim 's rise sharply at that point , as the action involving both of them intensifies .", 
+          "As for Huck , his name hardly appears at all , because he is the narrator .", 
+          "Little Women is a story of four sisters growing up together during the civil war ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "chapter plot little huck titles witho written jim number spelled christmas length tablewithcolumnchapters wake periods characters table hardly playing women"
+    }, 
+    "chapter shut look well number around ther door turned man along periods": {
+      "full_title": "NO TITLE:chapter shut look well number around ther door turned man along periods", 
+      "paragraphs": [
+        [
+          "# Display the chapters of Huckleberry Finn in a table .", 
+          "Table().with_column('Chapters ' , huck_finn_chapters )  Chapters  I. YOU do n't know about me without you have read a book ...  II.", 
+          "WE went tiptoeing along a path amongst the trees bac ...  III.", 
+          "WELL , I got a good going - over in the morning from o ...  IV."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "chapter shut look well number around ther door turned man along periods"
+    }, 
+    "chapter text number effect questions periods": {
+      "full_title": "NO TITLE:chapter text number effect questions periods", 
+      "paragraphs": [
+        [
+          "The plot shows that those chapters contain about 10,000 characters to about 15,000 characters , roughly .", 
+          "That 's about 100 to 150 characters per period .", 
+          "Indeed , it appears from looking at the plot that on average both books tend to have somewhere between 100 and 150 characters between periods , as a very rough estimate ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "chapter text number effect questions periods"
+    }, 
+    "chapter text number periods": {
+      "full_title": "NO TITLE:chapter text number periods", 
+      "paragraphs": [
+        [
+          "Florence Nightingale , the originator of modern nursing practices and famous for her work in the Crimean War , was a die - hard miasmatist .", 
+          "She had no time for theories about contagion and germs , and was not one for mincing her words .", 
+          "?", 
+          "There is no end to the absurdities connected with this doctrine , ?", 
+          "she said .", 
+          "?", 
+          "Suffice it to say that in the ordinary sense of the word , there is no proof such as would be admitted in any scientific enquiry that there is any such thing as contagion .", 
+          "?", 
+          "A later RCT established that the conditions on which PROGRESA insisted ?", 
+          "children going to school , preventive health care ?", 
+          "were not necessary to achieve increased enrollment .", 
+          "Just the financial boost of the welfare payments was sufficient .", 
+          "Good reads  The Strange Case of the Broad Street Pump : John Snow and the Mystery of Cholera by Sandra Hempel , published by our own University of California Press , reads like a whodunit .", 
+          "It was one of the main sources for this section 's account of John Snow and his work .", 
+          "A word of warning : some of the contents of the book are stomach - churning .", 
+          "Poor Economics , the best seller by Abhijit V. Banerjee and Esther Duflo of MIT , is an accessible and lively account of ways to fight global poverty ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "chapter text number periods"
+    }, 
+    "coffee death group individuals would questions science chocolate penalty randomized state experiment treatment groups outcome data study": {
+      "full_title": "NO TITLE:coffee death group individuals would questions science chocolate penalty randomized state experiment treatment groups outcome data study", 
+      "paragraphs": [
+        [
+          "Perhaps these two great 19th century novels were signaling something so very familiar us now : the 140-character limit of Twitter .", 
+          "Causality and Experiments  \" These problems are , and will probably ever remain , among the inscrutable secrets of nature .", 
+          "They belong to a class of questions radically inaccessible to the human intelligence . \"", 
+          "?The Times of London , September 1849 , on how cholera is contracted and spread  Does the death penalty have a deterrent effect ?", 
+          "Is chocolate good for you ?", 
+          "What causes breast cancer ?", 
+          "All of these questions attempt to assign a cause to an effect .", 
+          "A careful examination of data can help shed light on questions like these .", 
+          "In this section you will learn some of the fundamental concepts involved in establishing causality .", 
+          "Observation is a key to good science .", 
+          "An observational study is one in which scientists make conclusions based on data that they have observed but had no hand in generating .", 
+          "In data science , many such studies involve observations on a group of individuals , a factor of interest called a treatment , and an outcome measured on each individual .", 
+          "It is easiest to think of the individuals as people .", 
+          "In a study of whether chocolate is good for the health , the individuals would indeed be people , the treatment would be eating chocolate , and the outcome might be a measure of blood pressure .", 
+          "But individuals in observational studies need not be people .", 
+          "In a study of whether the death penalty has a deterrent effect , the individuals could be the 50 states of the union ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "coffee death group individuals would questions science chocolate penalty randomized state experiment treatment groups outcome data study"
+    }, 
+    "coffee group drinkers cancer randomized contained experiment lung treatment groups showed smoking cause study": {
+      "full_title": "NO TITLE:coffee group drinkers cancer randomized contained experiment lung treatment groups showed smoking cause study", 
+      "paragraphs": [
+        [
+          "Because of the dominance of the miasmatists in Italy , Pacini ?s discovery languished unknown .", 
+          "But by the end of the 1800 ?s , the miasma brigade was in retreat .", 
+          "Subsequent history has vindicated Pacini and John Snow .", 
+          "Snow ?s methods led to the development of the field of epidemiology , which is the study of the spread of diseases .", 
+          "Confounding  Let us now return to more modern times , armed with an important lesson that we have learned along the way :  In an observational study , if the treatment and control groups differ in ways other than the treatment , it is difficult to make conclusions about causality .", 
+          "An underlying difference between the two groups ( other than the treatment ) is called a confounding factor , because it might confound you ( that is , mess you up ) when you try to reach a conclusion .", 
+          "Example : Coffee and lung cancer .", 
+          "Studies in the 1960 ?s showed that coffee drinkers had higher rates of lung cancer than those who did not drink coffee .", 
+          "Because of this , some people identified coffee as a cause of lung cancer .", 
+          "But coffee does not cause lung cancer .", 
+          "The analysis contained a confounding factor ?", 
+          "smoking ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "coffee group drinkers cancer randomized contained experiment lung treatment groups showed smoking cause study"
+    }, 
+    "coffee group drinkers cancer randomized contained experiment lung treatment groups smoking cause study": {
+      "full_title": "NO TITLE:coffee group drinkers cancer randomized contained experiment lung treatment groups smoking cause study", 
+      "paragraphs": [
+        [
+          "In those days , coffee drinkers were also likely to have been smokers , and smoking does cause lung cancer .", 
+          "Coffee drinking was associated with lung cancer , but it did not cause the disease .", 
+          "Confounding factors are common in observational studies .", 
+          "Good studies take great care to reduce confounding . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "coffee group drinkers cancer randomized contained experiment lung treatment groups smoking cause study"
+    }, 
+    "group without allows choice randomized experiment treatment groups method quite study": {
+      "full_title": "NO TITLE:group without allows choice randomized experiment treatment groups method quite study", 
+      "paragraphs": [
+        [
+          "But every method of randomization consists of a sequence of carefully defined steps that allow chances to be specified mathematically .", 
+          "This has two important consequences .", 
+          "It allows us to account?mathematically?for the possibility that randomization produces treatment and control groups that are quite different from each other .", 
+          "It allows us to make precise mathematical statements about differences between the treatment and control groups .", 
+          "This in turn helps us make justifiable conclusions about whether the treatment has any effect .", 
+          "In this course , you will learn how to conduct and analyze your own randomized experiments .", 
+          "That will involve more detail than has been presented in this section .", 
+          "For now , just focus on the main idea : to try to establish causality , run a randomized controlled experiment if possible .", 
+          "If you are conducting an observational study , you might be able to establish association but not causation .", 
+          "Be extremely careful about confounding factors before making conclusions about causality based on an observational study . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "group without allows choice randomized experiment treatment groups method quite study"
+    }, 
+    "group without allows randomized experiment treatment groups method quite study choice": {
+      "full_title": "NO TITLE:group without allows randomized experiment treatment groups method quite study choice", 
+      "paragraphs": [
+        [
+          "You should not expect cooperation from them if you present them with a drink .", 
+          "In such situations you will almost invariably be conducting an observational study , not an experiment .", 
+          "Be alert for confounding factors .", 
+          "Endnote  In the terminology of that we have developed , John Snow conducted an observational study , not a randomized experiment .", 
+          "But he called his study a ?", 
+          "grand experiment ?", 
+          "because , as he wrote , ?", 
+          "No fewer than three hundred thousand people ... were divided into two groups without their choice , and in most cases , without their knowledge ... ?", 
+          "Studies such as Snow ?s are sometimes called ?", 
+          "natural experiments .", 
+          "?", 
+          "However , true randomization does not simply mean that the treatment and control groups are selected ?", 
+          "without their choice .", 
+          "?", 
+          "The method of randomization can be as simple as tossing a coin .", 
+          "It may also be quite a bit more complex ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "group without allows randomized experiment treatment groups method quite study choice"
+    }, 
+    "map death handle district deaths broad study recorded snow drew water houses pump street black cholera using went mounted": {
+      "full_title": "NO TITLE:map death handle district deaths broad study recorded snow drew water houses pump street black cholera using went mounted", 
+      "paragraphs": [
+        [
+          "As they were breathing the same air?and miasmas?as their neighbors , there was no compelling association between bad smells and the incidence of cholera .", 
+          "Snow had also noticed that the onset of the disease almost always involved vomiting and diarrhea .", 
+          "He therefore believed that that infection was carried by something people ate or drank , not by the air that they breathed .", 
+          "His prime suspect was water contaminated by sewage .", 
+          "At the end of August 1854 , cholera struck in the overcrowded Soho district of London ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "map death handle district deaths broad study recorded snow drew water houses pump street black cholera using went mounted"
+    }, 
+    "map differences would deaths broad factory water houses pump street groups cholerae vibrio pacini made miasmatists": {
+      "full_title": "NO TITLE:map differences would deaths broad factory water houses pump street groups cholerae vibrio pacini made miasmatists", 
+      "paragraphs": [
+        [
+          "The death rate from cholera in the S&V houses was almost ten times the rate in the houses supplied by Lambeth .", 
+          "Establishing Causality  In the language developed earlier in the section , you can think of the people in the S&V houses as the treatment group , and those in the Lambeth houses at the control group .", 
+          "A crucial element in Snow ?s analysis was that the people in the two groups were comparable to each other , apart from the treatment .", 
+          "In order to establish whether it was the water supply that was causing cholera , Snow had to compare two groups that were similar to each other in all but one aspect?their water supply .", 
+          "Only then would he be able to ascribe the differences in their outcomes to the water supply .", 
+          "If the two groups had been different in some other way as well , it would have been difficult to point the finger at the water supply as the source of the disease .", 
+          "For example , if the treatment group consisted of factory workers and the control group did not , then differences between the outcomes in the two groups could have been due to the water supply , or to factory work , or both , or to any other characteristic that made the groups different from each other .", 
+          "The final picture would have been much more fuzzy .", 
+          "Snow ?s brilliance lay in identifying two groups that would make his comparison clear ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "map differences would deaths broad factory water houses pump street groups cholerae vibrio pacini made miasmatists"
+    }, 
+    "map eley handle theory deaths broad hampstead snow mrs isolated water houses pump street cholera provided piece leafy support quite": {
+      "full_title": "NO TITLE:map eley handle theory deaths broad hampstead snow mrs isolated water houses pump street cholera provided piece leafy support quite", 
+      "paragraphs": [
+        [
+          "For example :  There were deaths in houses that were nearer the Rupert Street pump than the Broad Street pump .", 
+          "Though the Rupert Street pump was closer as the crow flies , it was less convenient to get to because of dead ends and the layout of the streets .", 
+          "The residents in those houses used the Broad Street pump instead .", 
+          "There were no deaths in two blocks just east of the pump .", 
+          "That was the location of the Lion Brewery , where the workers drank what they brewed .", 
+          "If they wanted water , the brewery had its own well .", 
+          "There were scattered deaths in houses several blocks away from the Broad Street pump .", 
+          "Those were children who drank from the Broad Street pump on their way to school ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "map eley handle theory deaths broad hampstead snow mrs isolated water houses pump street cholera provided piece leafy support quite"
+    }, 
+    "map flies streets deaths ends broad less snow dead brewery water houses pump street cholera layout get rupert": {
+      "full_title": "NO TITLE:map flies streets deaths ends broad less snow dead brewery water houses pump street cholera layout get rupert", 
+      "paragraphs": [
+        [
+          "As the deaths mounted , Snow recorded them diligently , using a method that went on to become standard in the study of how diseases spread : he drew a map .", 
+          "On a street map of the district , he recorded the location of each death .", 
+          "Here is Snow ?s original map .", 
+          "Each black bar represents one death .", 
+          "The black discs mark the locations of water pumps .", 
+          "The map displays a striking revelation?the deaths are roughly clustered around the Broad Street pump .", 
+          "Snow ?s Cholera Map  Snow studied his map carefully and investigated the apparent anomalies .", 
+          "All of them implicated the Broad Street pump ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "map flies streets deaths ends broad less snow dead brewery water houses pump street cholera layout get rupert"
+    }, 
+    "map handle deaths epidemics broad sometimes snow disease water houses pump street questions cholera scientists simple": {
+      "full_title": "NO TITLE:map handle deaths epidemics broad sometimes snow disease water houses pump street questions cholera scientists simple", 
+      "paragraphs": [
+        [
+          "The pump ?s water was known to be cool and refreshing .", 
+          "The final piece of evidence in support of Snow ?s theory was provided by two isolated deaths in the leafy and genteel Hampstead area , quite far from Soho .", 
+          "Snow was puzzled by these until he learned that the deceased were Mrs.", 
+          "Susannah Eley , who had once lived in Broad Street , and her niece .", 
+          "Mrs.", 
+          "Eley had water from the Broad Street pump delivered to her in Hampstead every day .", 
+          "She liked its taste .", 
+          "Later it was discovered that a cesspit that was just a few feet away from the well of the Broad Street pump had been leaking into the well .", 
+          "Thus the pump ?s water was contaminated by sewage from the houses of cholera victims .", 
+          "Snow used his map to convince local authorities to remove the handle of the Broad Street pump ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "map handle deaths epidemics broad sometimes snow disease water houses pump street questions cholera scientists simple"
+    }, 
+    "map lambeth difference deaths whatever broad company companies supplied water houses pump street receiving sewage": {
+      "full_title": "NO TITLE:map lambeth difference deaths whatever broad company companies supplied water houses pump street receiving sewage", 
+      "paragraphs": [
+        [
+          "If the results are different , that is evidence for an association .", 
+          "To determine causation , however , even more care is needed .", 
+          "Snow ?s ?", 
+          "Grand Experiment ?", 
+          "Encouraged by what he had learned in Soho , Snow completed a more thorough analysis of cholera deaths .", 
+          "For some time , he had been gathering data on cholera deaths in an area of London that was served by two water companies .", 
+          "The Lambeth water company drew its water upriver from where sewage was discharged into the River Thames .", 
+          "Its water was relatively clean .", 
+          "But the Southwark and Vauxhall ( S&V ) company drew its water below the sewage discharge , and thus its supply was contaminated .", 
+          "Snow noticed that there was no systematic difference between the people who were supplied by S&V and those supplied by Lambeth .", 
+          "?"
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "map lambeth difference deaths whatever broad company companies supplied water houses pump street receiving sewage"
+    }, 
+    "map lambeth differences would deaths broad supply supplied factory water houses pump street groups difference": {
+      "full_title": "NO TITLE:map lambeth differences would deaths broad supply supplied factory water houses pump street groups difference", 
+      "paragraphs": [
+        [
+          "Each company supplies both rich and poor , both large houses and small ; there is no difference either in the condition or occupation of the persons receiving the water of the different Companies ... there is no difference whatever in the houses or the people receiving the supply of the two Water Companies , or in any of the physical conditions with which they are surrounded ... ?", 
+          "The only difference was in the water supply , ?", 
+          "one group being supplied with water containing the sewage of London , and amongst it , whatever might have come from the cholera patients , the other group having water quite free from impurity .", 
+          "?", 
+          "Confident that he would be able to arrive at a clear conclusion , Snow summarized his data in the table below .", 
+          "Supply Area  Number of houses  cholera deaths  deaths per 10,000 houses  S&V  40,046  1,263  315  Lambeth  26,107  98  37  Rest of London  256,423  1,422  59  The numbers pointed accusingly at S&V."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "map lambeth differences would deaths broad supply supplied factory water houses pump street groups difference"
+    }, 
+    "map miasmas bad deaths broad pump street": {
+      "full_title": "NO TITLE:map miasmas bad deaths broad pump street", 
+      "paragraphs": [
+        [
+          "Terminology  observational study  treatment  outcome  association  causal association  causality  comparison  treatment group  control group  epidemiology  confounding  randomization  randomized controlled experiment  randomized controlled trial ( RCT )  blind  placebo  Fun facts  John Snow is sometimes called the father of epidemiology , but he was an anesthesiologist by profession .", 
+          "One of his patients was Queen Victoria , who was an early recipient of anesthetics during childbirth . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "map miasmas bad deaths broad pump street"
+    }, 
+    "map parts theory deaths broad could bad houses pump street miasmas city": {
+      "full_title": "NO TITLE:map parts theory deaths broad could bad houses pump street miasmas city", 
+      "paragraphs": [
+        [
+          "The establishment of causality often takes place in two stages .", 
+          "First , an association is observed .", 
+          "Next , a more careful analysis leads to a decision about causality .", 
+          "Observation and Visualization : John Snow and the Broad Street Pump  One of the earliest examples of astute observation eventually leading to the establishment of causality dates back more than 150 years .", 
+          "To get your mind into the right timeframe , try to imagine London in the 1850 ?s .", 
+          "It was the world ?s wealthiest city but many of its people were desperately poor .", 
+          "Charles Dickens , then at the height of his fame , was writing about their plight .", 
+          "Disease was rife in the poorer parts of the city , and cholera was among the most feared .", 
+          "It was not yet known that germs cause disease ; the leading theory was that ?", 
+          "miasmas ?", 
+          "were the main culprit .", 
+          "Miasmas manifested themselves as bad smells , and were thought to be invisible poisonous particles arising out of decaying matter .", 
+          "Parts of London did smell very bad , especially in hot weather .", 
+          "To protect themselves against infection , those who could afford to held sweet - smelling things to their noses . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "map parts theory deaths broad could bad houses pump street miasmas city"
+    }, 
+    "map use murder deaths broad average compare water pump street scientists researchers today states": {
+      "full_title": "NO TITLE:map use murder deaths broad average compare water pump street scientists researchers today states", 
+      "paragraphs": [
+        [
+          "Though the cholera epidemic was already on the wane when he did so , it is possible that the disabling of the pump prevented many deaths from future waves of the disease .", 
+          "The removal of the Broad Street pump handle has become the stuff of legend .", 
+          "At the Centers for Disease Control ( CDC ) in Atlanta , when scientists look for simple answers to questions about epidemics , they sometimes ask each other , ?", 
+          "Where is the handle to this pump ?", 
+          "?", 
+          "Snow ?s map is one of the earliest and most powerful uses of data visualization .", 
+          "Disease maps of various kinds are now a standard tool for tracking epidemics .", 
+          "Towards Causality  Though the map gave Snow a strong indication that the cleanliness of the water supply was the key to controlling cholera , he was still a long way from a convincing scientific argument that contaminated water was causing the spread of the disease .", 
+          "To make a more compelling case , he had to use the method of comparison . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "map use murder deaths broad average compare water pump street scientists researchers today states"
+    }, 
+    "map use murder rate deaths broad average companies supplied water houses pump street difference company states": {
+      "full_title": "NO TITLE:map use murder rate deaths broad average companies supplied water houses pump street difference company states", 
+      "paragraphs": [
+        [
+          "Scientists use comparison to identify an association between a treatment and an outcome .", 
+          "They compare the outcomes of a group of individuals who got the treatment ( the treatment group ) to the outcomes of a group who did not ( the control group ) .", 
+          "For example , researchers today might compare the average murder rate in states that have the death penalty with the average murder rate in states that don?t . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "map use murder rate deaths broad average companies supplied water houses pump street difference company states"
+    }, 
+    "program progresa group villages money school children randomized experiment treatment groups enrollment study": {
+      "full_title": "NO TITLE:program progresa group villages money school children randomized experiment treatment groups enrollment study", 
+      "paragraphs": [
+        [
+          "More money was given if the children were in secondary school than in primary school , to compensate for the children ?s lost wages , and more money was given for girls attending school than for boys .", 
+          "The remaining villages did not get this treatment , and formed the control group .", 
+          "Because of the randomization , there were no confounding factors and it was possible to establish that PROGRESA increased school enrollment .", 
+          "For boys , the enrollment increased from 73 % in the control group to 77 % in the PROGRESA group .", 
+          "For girls , the increase was even greater , from 67 % in the control group to almost 75 % in the PROGRESA group ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "program progresa group villages money school children randomized experiment treatment groups enrollment study"
+    }, 
+    "program progresa group villages money school used children randomized experiment treatment groups enrollment welfare study": {
+      "full_title": "NO TITLE:program progresa group villages money school used children randomized experiment treatment groups enrollment welfare study", 
+      "paragraphs": [
+        [
+          "If you are able to randomize individuals into the treatment and control groups , you are running a randomized controlled experiment , also known as a randomized controlled trial ( RCT ) .", 
+          "Sometimes , people ?s responses in an experiment are influenced by their knowing which group they are in .", 
+          "So you might want to run a blind experiment in which individuals do not know whether they are in the treatment group or the control group .", 
+          "To make this work , you will have to give the control group a placebo , which is something that looks exactly like the treatment but in fact has no effect .", 
+          "Randomized controlled experiments have long been a gold standard in the medical field , for example in establishing whether a new drug works .", 
+          "They are also becoming more commonly used in other fields such as economics .", 
+          "Example : Welfare subsidies in Mexico .", 
+          "In Mexican villages in the 1990 ?s , children in poor families were often not enrolled in school .", 
+          "One of the reasons was that the older children could go to work and thus help support the family .", 
+          "Santiago Levy , a minister in Mexican Ministry of Finance , set out to investigate whether welfare programs could be used to increase school enrollment and improve health conditions .", 
+          "He conducted an RCT on a set of villages , selecting some of them at random to receive a new welfare program called PROGRESA.", 
+          "The program gave money to poor families if their children went to school regularly and the family used preventive health care ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "program progresa group villages money school used children randomized experiment treatment groups enrollment welfare study"
+    }, 
+    "real statistics central log site python text scientists component prediction data uses learning science exploration tools techniques": {
+      "full_title": "NO TITLE:real statistics central log site python text scientists component prediction data uses learning science exploration tools techniques", 
+      "paragraphs": [
+        [
+          "Computational and Inferential Thinking  The Foundations of Data Science  By Ani Adhikari and John DeNero  Contributions by David Wagner  What is Data Science  Data Science is about drawing useful conclusions from large and diverse data sets through exploration , prediction , and inference .", 
+          "Exploration involves identifying patterns in information .", 
+          "Prediction involves using information we know to make informed guesses about values we wish we knew .", 
+          "Inference involves quantifying our degree of certainty : will those patterns we found also appear in new observations ?", 
+          "How accurate are our predictions ?", 
+          "Our primary tools for exploration are visualizations and descriptive statistics , for prediction are machine learning and optimization , and for inference are statistical tests and models .", 
+          "Statistics is a central component of data science because statistics studies how to make robust conclusions with incomplete information .", 
+          "Computing is a central component because programming allows us to apply analysis techniques to the large and diverse data sets that arise in real - world applications : not just numbers , but text , images , videos , and sensor readings .", 
+          "Data science is all of these things , but it more than the sum of its parts because of the applications ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "real statistics central log site python text scientists component prediction data uses learning science exploration tools techniques"
+    }, 
+    "real statistics log environment python text site data libraries science tools techniques": {
+      "full_title": "NO TITLE:real statistics log environment python text site data libraries science tools techniques", 
+      "paragraphs": [
+        [
+          "Through understanding a particular domain , data scientists learn to ask appropriate questions about their data and correctly interpret the answers provided by our inferential and computational tools .", 
+          "Computational Tools  This text uses the Python 3 programming language , along with a standard set of numerical and data visualization tools that are used widely in commercial applications , scientific experiments , and open - source projects .", 
+          "Python has recruited enthusiasts from many professions that use data to draw conclusions .", 
+          "By learning the Python language , you will join a million - person - strong community of software developers and data scientists .", 
+          "Getting Started .", 
+          "The easiest and recommended way to start writing programs in Python is to log into the companion site for this text , data8.berkeley.edu .", 
+          "If you are enrolled in a course offering that uses this text , you should have full access to the programming environment hosted on that site ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "real statistics log environment python text site data libraries science tools techniques"
+    }, 
+    "real statistics name python text focus data read generated right books interpreting science details tools example worry techniques": {
+      "full_title": "NO TITLE:real statistics name python text focus data read generated right books interpreting science details tools example worry techniques", 
+      "paragraphs": [
+        [
+          "The world has too many unanswered questions and difficult challenges to leave this critical reasoning to only a few specialists .", 
+          "However , all educated adults can build the capacity to reason about data .", 
+          "The tools , techniques , and data sets are all readily available ; this text aims to make them accessible to everyone .", 
+          "Example : Plotting the Classics  Interact  Example : Plotting the Classics?", 
+          "In this example , we will explore statistics for two classic novels : The Adventures of Huckleberry Finn by Mark Twain , and Little Women by Louisa May Alcott .", 
+          "The text of any book can be read by a computer at great speed .", 
+          "Books published before 1923 are currently in the public domain , meaning that everyone has the right to copy or use the text in any way .", 
+          "Project Gutenberg is a website that publishes public domain books online .", 
+          "Using Python , we can load the text of these books directly from the web .", 
+          "This example is meant to illustrate some of the broad themes of this text .", 
+          "Do n't worry if the details of the program do n't yet make sense .", 
+          "Instead , focus on interpreting the images generated below ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "real statistics name python text focus data read generated right books interpreting science details tools example worry techniques"
+    }, 
+    "real statistics plotting python text data everyone books critical aspect science example classics tools reasoning techniques": {
+      "full_title": "NO TITLE:real statistics plotting python text data everyone books critical aspect science example classics tools reasoning techniques", 
+      "paragraphs": [
+        [
+          "Studying data science enables individuals to bring these techniques to bear on their work , their scientific endeavors , and their personal decisions .", 
+          "Critical thinking has long been a hallmark of a rigorous education , but critiques are often most effective when supported by data .", 
+          "A critical analysis of any aspect of the world , may it be business or social science , involves inductive reasoning --- conclusions can rarely been proven outright , only supported by the available evidence .", 
+          "Data science provides the means to make precise , reliable , and quantitative arguments about any set of observations .", 
+          "With unprecedented access to information and computing , critical thinking about any aspect of the world that can be measured would be incomplete without the inferential techniques that are core to data science . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "real statistics plotting python text data everyone books critical aspect science example classics tools reasoning techniques"
+    }, 
+    "real statistics python text taking computers problems data focusing full science tools techniques": {
+      "full_title": "NO TITLE:real statistics python text taking computers problems data focusing full science tools techniques", 
+      "paragraphs": [
+        [
+          "The first time you log in , you will find a brief tutorial describing how to proceed.1  You are not at all restricted to using this web - based programming environment .", 
+          "A Python program can be executed by any computer , regardless of its manufacturer or operating system , provided that support for the language is installed .", 
+          "If you wish to install the version of Python and its accompanying libraries that will match this text , we recommend the Anaconda distribution that packages together the Python 3 language interpreter , IPython libraries , and the Jupyter notebook environment.1  This text includes a complete introduction to all of these computational tools .", 
+          "You will learn to write programs , generate images from data , and work with real - world data sets that are published online .", 
+          "Statistical Techniques  The discipline of statistics has long addressed the same fundamental challenge as data science : how to draw conclusions about the world using incomplete information .", 
+          "One of the most important contributions of statistics is a consistent and precise vocabulary for describing the relationship between observations and conclusions ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "real statistics python text taking computers problems data focusing full science tools techniques"
+    }, 
+    "real statistics text supported decisions data thinking critical aspect science tools reasoning techniques": {
+      "full_title": "NO TITLE:real statistics text supported decisions data thinking critical aspect science tools reasoning techniques", 
+      "paragraphs": [
+        [
+          "The interesting variation in real data can be lost by focusing too much attention on simplistic summaries such as average values .", 
+          "Computers enable a family of methods based on resampling that apply to a wide range of different inference problems , take into account all available information , and require few assumptions or conditions .", 
+          "Although these techniques have often been reserved for graduate courses in statistics , their flexibility and simplicity are a natural fit for data science applications .", 
+          "Why Data Science ?", 
+          "Most important decisions are made with only partial information and uncertain outcomes .", 
+          "However , the degree of uncertainty for many decisions can be reduced sharply by public access to large data sets and the computational tools required to analyze them effectively .", 
+          "Data - driven decision making has already transformed a tremendous breadth of industries , including finance , advertising , manufacturing , and real estate .", 
+          "At the same time , a wide range of academic disciplines are evolving rapidly to incorporate large - scale data analysis into their theory and practice . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "real statistics text supported decisions data thinking critical aspect science tools reasoning techniques"
+    }, 
+    "real statistics wide text computers problems decisions data focusing range critical science analyze tools techniques": {
+      "full_title": "NO TITLE:real statistics wide text computers problems decisions data focusing range critical science analyze tools techniques", 
+      "paragraphs": [
+        [
+          "This text continues in the same tradition , focusing on a set of core inferential problems from statistics : testing hypotheses , estimating confidence , and predicting unknown quantities .", 
+          "Data science extends the field of statistics by taking full advantage of computing , data visualization , and access to information .", 
+          "The combination of fast computers and the Internet gives anyone the ability to access and analyze vast datasets : millions of news articles , full encyclopedias , databases for any domain , and massive repositories of music , photos , and video .", 
+          "Applications to real data sets motivate the statistical techniques that we describe throughout the text .", 
+          "Real data often do not follow regular patterns or match standard equations ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "real statistics wide text computers problems decisions data focusing range critical science analyze tools techniques"
+    }
+  }, 
+  "subject": "real statistics central log site python text scientists component prediction data uses learning science exploration tools techniques"
+}

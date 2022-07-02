@@ -2,7 +2,7 @@ __author__ = 'mrittha'
 import unicodedata
 import json
 import wikipedia
-import sentence_tagger
+import know_it_all.text_processor.sentence_tagger as sentence_tagger
 
 
 def get_paragraphs(section):
@@ -22,7 +22,7 @@ def get_sections(text):
     sections = {}
     section_list = ['Summary']
     section = 'Summary'
-    lines = text.split('\n')
+    lines = text.decode('UTF-8').split('\n')
     for line in lines:
 
         if line[-7:] == "Edit ==":
@@ -46,7 +46,7 @@ def get_sections(text):
         else:
             sections[section] = sections.get(section, []) + [line]
     for s in section_list:
-        sections[s] = get_paragraphs(sections[s])
+        sections[s] = get_paragraphs(sections.get(s,''))
     return sections, section_list
 
 
@@ -87,9 +87,42 @@ def make_chunk(article, subject):
     return chunk
 
 
+def section_file_to_chunk(filename):
+    with open(filename, 'r') as f:
+        data = json.loads(f.read())
+
+    section_list = [' '.join(d['keywords']) for d in data]
+
+    chunk = {}
+    source=data[0].get('source',"")
+    if "C:\\Users\\mrittha\\Documents\\Calibre Library\\" in source:
+        b=source.split("\\")
+        chunk['subject']=b[-2]
+    else:
+         chunk['subject'] = section_list[0]
+    chunk['section_list'] = section_list
+
+    chunk['sections'] = {}
+    for section in data:
+        new_section = {}
+        new_section['title'] = ' '.join(section['keywords'])
+        new_section['full_title'] = "NO TITLE" + ":" + new_section['title']
+        new_section['score'] = 0.0
+        # some hackery here, because we don't have a great way to get
+        # paragraphs.
+        text=unicodedata.normalize('NFKD', section['text']).encode('ascii', 'replace')
+        sentences = sentence_tagger.get_sentences(text)
+        new_section['paragraphs'] = [sentences]
+        chunk['sections'][new_section['title']] = new_section
+    update_chunk(chunk)
+    return chunk
+
+
 if __name__ == "__main__":
-    suggestions = wikipedia.search('knot theory')
-    print suggestions
-    article = wikipedia.page(suggestions[0])
+    suggestions = wikipedia.search('Knot theory')
+    print(suggestions)
+    target=suggestions[0]
+    print(target)
+    article = wikipedia.page('fKnot theory')
     a_chunk = make_chunk(article, suggestions[0])
-    print json.dumps(a_chunk, sort_keys=True, indent=2)
+    print(json.dumps(a_chunk, sort_keys=True, indent=2))

@@ -1,0 +1,839 @@
+{
+  "section_list": [
+    "violence street excitation rival professor well local angeles los gang known retaliatory university", 
+    "earthquakes section", 
+    "pairs burglaries residential professor angeles los section stochastic declustering university maps", 
+    "santa burglaries grant assistant professor clara angeles los mathematics university points", 
+    "statistical grant professor department nsf irvine angeles los muri university aro", 
+    "statistical grant professor nsf irvine angeles los american muri university association aro", 
+    "grant angeles los earthquake university magnitude", 
+    "control aftershock pji parameters kernel models type smooth according event step earthquakes smoothing data ogata", 
+    "jones selection pji gangs los rivalry smooth maximum event step vere violent parameter data estima", 
+    "given pji methods probability point prevents self use update step grid exciting spacetime", 
+    "given springparent pji background probability correctness use smooth update step assuming event", 
+    "given pji correctness probability sampled iteration bandwidth springparent smooth update background step assuming using event", 
+    "given ing pji matrix probability iteration bandwidth smooth update step triggered allows validation event", 
+    "given validation pji matrix probability give provide ing initial smooth update used step simulated guess event", 
+    "given pji probability los update angeles reported step time burglary event", 
+    "given pji fit probability reported equation smooth update angeles los step time burglary dataset collected", 
+    "given pji probability los update angeles reported step time burglary event", 
+    "pji distances house spatial smooth due event travels step burglary fluctuations along data interpoint", 
+    "pji distances house spatial smooth due event travels step burglary fluctuations along data interpoint", 
+    "pji distances house spatial smooth due event travels step burglary fluctuations along data interpoint", 
+    "clustering around days heterogeneity true repeat estimated several risk", 
+    "clustering around days heterogeneity true repeat estimated several risk", 
+    "clustering around days heterogeneity true repeat estimated several risk", 
+    "pease bowers marginal fluctua tions true right background estimated left", 
+    "background bowers sampled marginal fluctua tions pease true right estimated left", 
+    "prospective catalogs city predictive kde cells crimes declustered due hotspot crime maps meters predicted units neighborhood flagged police", 
+    "prospective forecasting within city kde cells crimes given hotspot crime maps meters predicted percentage spacetime flagged day", 
+    "prospective forecasting city cells crimes plot hotspot crime maps strategy meters predicted error average percentage comparison spacetime flagged day left", 
+    "prospective tailored smoothing city cells crimes hotspot crime maps meters predicted theft error events percentage strategy flagged left", 
+    "prospective city events cells crimes inferred hotspot crime maps priori meters predicted methodologies imposed flagged two opposed", 
+    "prospective city models cells crimes hotspot crime maps meters predicted events flagged gang", 
+    "prospective smaller network algorithm city percentages cells crimes space hotspot crime better maps meters predicted stochastic flagged gang", 
+    "sample pji density percentages maximization could smooth map event relative step data method", 
+    "given pji probability los update angeles reported step time burglary event", 
+    "sampled domain est run marginal support error iteration results times bandwidth estimation kernel density size", 
+    "sampled est run marginal top error iteration bottom mohler right exp estimated structure left", 
+    "sampled est run carried marginal error iteration according simulation poisson generation exp corresponding simulating", 
+    "sampled iterations est run marginal error iteration yield observe values table simulated parameter", 
+    "est run marginal estimates variation two sample true values last ror estimated columns", 
+    "est run density marginal true actual estimated", 
+    "still est run see density marginal decay however aftershock true estimation close new estimated science", 
+    "lect likelihood target institute marginal journal analysis mathematics marked annals nieuwbeerta york references residential new criminology", 
+    "multivariate short marginal journal dorsogna uhlig analysis future scott york brantingham tompson new chainey wiley criminology", 
+    "diffusion homicide statistics cohen marginal journal analysis york quantitative silverman new shocks criminology", 
+    "diffusion springer physical theory marginal journal shocks analysis review york series new main criminology", 
+    "marginal journal analysis york new criminology"
+  ], 
+  "sections": {
+    "background bowers sampled marginal fluctua tions pease true right estimated left": {
+      "full_title": "NO TITLE:background bowers sampled marginal fluctua tions pease true right estimated left", 
+      "paragraphs": [
+        [
+          "There are also several bumps in the el - Figure 5 , we plot the estimated marginals ?75( t ) and ?75( x , y ) evated risk of burglary , for example , around 7 days .", 
+          "Here one estimated using KDE from { ( tb , xb , yb ) } Nb at the 75th iteration .", 
+          "i  i  i  i=1  Figure 4 .", 
+          "Marginal g 75( t ) ( left ) and marginal g 75( x ) ( right ) estimated using KDE based upon offspring/parent interpoint distances sampled from P 75 .", 
+          "104  Journal of the American Statistical Association , March 2011  Figure 5 .", 
+          "Background rate time marginal ?75( t ) ( left ) and"
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "background bowers sampled marginal fluctua tions pease true right estimated left"
+    }, 
+    "clustering around days heterogeneity true repeat estimated several risk": {
+      "full_title": "NO TITLE:clustering around days heterogeneity true repeat estimated several risk", 
+      "paragraphs": [
+        [
+          "Here risk heterogeneity and in general it is a difficult task to sepa - the presence of exact - repeat events can again be seen , as g 75( x ) rate clustering due to background heterogeneity and clustering appears to approximate a delta distribution at the origin .", 
+          "The due to self - excitation ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "clustering around days heterogeneity true repeat estimated several risk"
+    }, 
+    "control aftershock pji parameters kernel models type smooth according event step earthquakes smoothing data ogata": {
+      "full_title": "NO TITLE:control aftershock pji parameters kernel models type smooth according event step earthquakes smoothing data ogata", 
+      "paragraphs": [
+        [
+          "On the left , histogram of times ( less than 300 days ) between Southern California earthquake events of magnitude 3.0 or greater separated by 110 kilometers or less .", 
+          "On the right , histogram of times ( less than 50 days ) between burglary events separated by 200 meters or less .", 
+          "In seismology a mark Mk , the magnitude of the earthquake , is Many forms for g have been proposed in the literature , associated with each event ( tk , xk , yk ) and the conditional inten - though in general the kernel is chosen such that the elevated risk sity often takes the form  increases with earthquake magnitude and decreases in space and time away from each event .", 
+          "For example , the isotropic ker-  ?", 
+          "( t , x , y , M ) = j( M)?", 
+          "( t , x , y ) , ( 2 )  nel ,  ?", 
+          "( t , x , y ) = ?", 
+          "( x , y )  +  g( t ?", 
+          "t  g( t , x , y ; M ) =  K 0  ?", 
+          "e?", 
+          "( M?", 
+          "M 0 )  ,  ( 4 )  k , x ?", 
+          "xk , y ?", 
+          "yk ; Mk ) .", 
+          "( 3 )  ( t + c ) p ( x 2 + y 2 + d ) q  { k : tk< t }  is one of a variety of kernels reviewed in Ogata ( 1998 ) .", 
+          "Here Models of this type , referred to as Epidemic Type Aftershock - K  Sequences ( ETAS ) models , work by dividing earthquakes into 0 , M 0 , and ?", 
+          "are parameters that control the number of after - two categories , background events and aftershock events ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "control aftershock pji parameters kernel models type smooth according event step earthquakes smoothing data ogata"
+    }, 
+    "diffusion homicide statistics cohen marginal journal analysis york quantitative silverman new shocks criminology": {
+      "full_title": "NO TITLE:diffusion homicide statistics cohen marginal journal analysis york quantitative silverman new shocks criminology", 
+      "paragraphs": [
+        [
+          "[ 101 ]  The Future of Crime Mapping ?", 
+          "?", 
+          "The British Journal of Criminology , 44 , Scott , D. W.", 
+          "( 1992 ) , Multivariate Density Estimation , New York : Wiley .", 
+          "[ 105 ]  641?658 .", 
+          "[ 104 ]  Short , M. B. , D?Orsogna , M. R. , Brantingham , P. J. , and Tita , G. E.", 
+          "( 2009 ) , Chainey , S. , Tompson , L. , and Uhlig , S.", 
+          "( 2008 ) , ?"
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "diffusion homicide statistics cohen marginal journal analysis york quantitative silverman new shocks criminology"
+    }, 
+    "diffusion springer physical theory marginal journal shocks analysis review york series new main criminology": {
+      "full_title": "NO TITLE:diffusion springer physical theory marginal journal shocks analysis review york series new main criminology", 
+      "paragraphs": [
+        [
+          "The Utility of Hotspot Map-  ?", 
+          "Measuring and Modeling Repeat and Near - Repeat Burglary Effects , ?", 
+          "Jour - ping for Predicting Spatial Patterns of Crime , ?", 
+          "Security Journal , 21 , 4?28 .", 
+          "nal of Quantitative Criminology , 25 ( 3 ) , 325 .", 
+          "[ 100,103 ]  [ 104 ]  Silverman , B. W.", 
+          "( 1986 ) , Density Estimation for Statistics and Data Analysis , Cohen , J. , and Tita , G.", 
+          "( 1999 ) , ?", 
+          "Spatial Diffusion in Homicide : Exploring London : Chapman & Hall .", 
+          "[ 101,104 , 105 ]  a General Method of Detecting Spatial Diffusion Processes , ?", 
+          "Journal of Sornette , D. , and Utkin , S.", 
+          "( 2009 ) , ?", 
+          "Limits of Declustering Methods for Dis - Quantitative Criminology , 15 ( 4 ) , 451?493 ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "diffusion springer physical theory marginal journal shocks analysis review york series new main criminology"
+    }, 
+    "earthquakes section": {
+      "full_title": "NO TITLE:earthquakes section", 
+      "paragraphs": [
+        [
+          "A gang shoot - val gang known as ?", 
+          "Lowell Street ?", 
+          "occurring between 2000 and ing may incite waves of retaliatory violence in the local set 2002 in the Los Angeles police district of Hollenbeck .", 
+          "Here we space ( territory ) of the rival gang ( Tita and Ridgeway 2007 ;  observe clear clustering patterns suggestive of self - excitation in  Cohen and Tita 1999 ) .", 
+          "The local , contagious spread of crime the rate at which the two rival gangs attack each other .", 
+          "leads to the formation of crime clusters in space and time . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "earthquakes section"
+    }, 
+    "est run density marginal true actual estimated": {
+      "full_title": "NO TITLE:est run density marginal true actual estimated", 
+      "paragraphs": [
+        [
+          "Parameter value estimates  w?1  ?", 
+          "x  ?", 
+          "y  ?", 
+          "?", 
+          "Nb est .", 
+          "Nb true  True values 10.00 0.0100 0.1000 0.2000 5.7100  Run 1 est .", 
+          "11.08 0.0176 0.1433 0.2001 5.6921 3999.7  4041  Run 2 est .", 
+          "12.20 0.0156 0.1296 0.1967 5.7768 4016.5  4026  Run 3 est .", 
+          "11.76 0.0150 0.1295 0.1997 5.6711 4001.5  4017  Figure A.2 ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "est run density marginal true actual estimated"
+    }, 
+    "est run marginal estimates variation two sample true values last ror estimated columns": {
+      "full_title": "NO TITLE:est run marginal estimates variation two sample true values last ror estimated columns", 
+      "paragraphs": [
+        [
+          "Here we observe that the error converges quickly for the first 10 iterations and then stabilizes as the error introduced by estimating the point process through sampling P  can not be reduced further ( unless a deterministic iterative procedure is employed ) .", 
+          "We also verify that the method applied to the 5376 burglary events in Section 3 reached convergence in Figure A.1 .", 
+          "Here we observe a similar rate of convergence for the crime data as with the simulated point process .", 
+          "In Table A.1 , we list the exact parameter values used for the simulated point process and the estimates averaged over the final 10 iterations of the stochastic declustering algorithm for each of five simulations of the point process .", 
+          "The parameter values were selected to yield point patterns with scales similar to those observed in crime data .", 
+          "The parameter estimates are computed using the sample variances of the coordinates of { ( to , xo , yo ) } No and the values of N  i  i  i  i=1  b , No .", 
+          "As some er-  ror is due to sample variation , we plot in the last two columns the Table A.1 ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "est run marginal estimates variation two sample true values last ror estimated columns"
+    }, 
+    "given ing pji matrix probability iteration bandwidth smooth update step triggered allows validation event": {
+      "full_title": "NO TITLE:given ing pji matrix probability iteration bandwidth smooth update step triggered allows validation event", 
+      "paragraphs": [
+        [
+          "Estimate ?", 
+          "background event , p  n , ?", 
+          "n and gn from the sampled data using ii , is given by  variable bandwidth Kernel Density Estimation .", 
+          "Step 3 .", 
+          "Update P  p  n from ?", 
+          "n , ?", 
+          "n and gn using ( 8 ) and ( 9 ) .", 
+          "ii = ?", 
+          "( ti , xi , yi )  ( 8 )  ?", 
+          "( ti ,"
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "given ing pji matrix probability iteration bandwidth smooth update step triggered allows validation event"
+    }, 
+    "given pji correctness probability sampled iteration bandwidth springparent smooth update background step assuming using event": {
+      "full_title": "NO TITLE:given pji correctness probability sampled iteration bandwidth springparent smooth update background step assuming using event", 
+      "paragraphs": [
+        [
+          "To get around these is-  ( tk , xk , yk ) } N  and a general self - exciting point process model  k=1  sues we use the following Monte Carlo - based iterative proce - of the form  dure :  ?", 
+          "( t , x , y ) = ?", 
+          "( t , x , y ) +  g( t ?", 
+          "tk , x ?", 
+          "xk , y ?", 
+          "yk ) .", 
+          "( 7 )  Step 1 .", 
+          "Sample background events { ( tb , xb , yb ) } Nb and off-  { k : t  i  i  i  i=1  k < t }  spring/parent interpoint distances { ( to , xo , yo ) } No from P  Assuming model correctness , the probability that event i is a i  i  i  i=1  n?1 .", 
+          "Step 2 ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "given pji correctness probability sampled iteration bandwidth springparent smooth update background step assuming using event"
+    }, 
+    "given pji fit probability reported equation smooth update angeles los step time burglary dataset collected": {
+      "full_title": "NO TITLE:given pji fit probability reported equation smooth update angeles los step time burglary dataset collected", 
+      "paragraphs": [
+        [
+          "tj , xi ?", 
+          "xj , yi ?", 
+          "yj , pji ) } i > j. Given this data , a nonparametric density estimation procedure can be used to estimate ?", 
+          "from 4 .", 
+          "RESULTS  { ( tk , xk , yk , pkk ) } N and g from { ( t k=1  i ?", 
+          "tj , xi ?", 
+          "xj , yi ?", 
+          "yj , pji ) } i > j , providing estimates ?", 
+          "We fit the model given by Equation ( 10 ) to a dataset collected 0 and g 0 .", 
+          "We can then proceed iteratively  as follows until convergence is achieved :  by the Los Angeles Police Department of 5376 reported residential burglaries in an 18 km by 18 km region of the San Fer - Step 1 .", 
+          "Estimate ?"
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "given pji fit probability reported equation smooth update angeles los step time burglary dataset collected"
+    }, 
+    "given pji methods probability point prevents self use update step grid exciting spacetime": {
+      "full_title": "NO TITLE:given pji methods probability point prevents self use update step grid exciting spacetime", 
+      "paragraphs": [
+        [
+          "The appropriate selection of parameter values is as critical to the modeling process as specifying accurate forms for ?", 
+          ", g , and j. The distance in space and time over which the risk spreads , the percentage of background events vs.", 
+          "aftershocks , the dependence of the increased risk on magnitude size , etc .", 
+          ", all can have a great impact on the predictive power of a point process model .", 
+          "Parameter selection for ETAS models is most Figure 2 .", 
+          "Times of violent crimes between two rivalry gangs in Los commonly accomplished through maximum likelihood estima - Angeles .", 
+          "tion , where the log - likelihood function ( Daley and Vere - Jones  102  Journal of the American Statistical Association , March 2011  2003 ) ,  Because the probabilistic data { ( tk , xk , yk , pkk ) } N  and { ( t  k=1  i ?", 
+          "tj , xi ?", 
+          "xj , yi ?", 
+          "yj , pji ) } i > j is both three - dimensional and the num - l(? )", 
+          "=  log{?", 
+          "( tk , xk , yk ; ? )", 
+          "}  ber of data points is O( N 2 ) [ where N is typically O(1000 ) for k  earthquake and crime datasets ] , the estimation step for ?", 
+          "and T  g  ?", 
+          "is computationally expensive .", 
+          "The dimensionality prevents ?", 
+          "( t , x , y ; ? )", 
+          "dy dx dt , ( 6 ) straightforward use of binning methods such as the Average 0  S  Shifted Histogram ( Marsan and Lenglin use a logarithmically is maximized over all parameter sets ?", 
+          ".", 
+          "Here S ?", 
+          "[ 0 , T ] is the scaled histogram on a coarse grid ) , as many bins may have ex - space?time window of observation . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "given pji methods probability point prevents self use update step grid exciting spacetime"
+    }, 
+    "given pji probability los update angeles reported step time burglary event": {
+      "full_title": "NO TITLE:given pji probability los update angeles reported step time burglary event", 
+      "paragraphs": [
+        [
+          "For crime types such as robbery and auto maximization step the complete data log - likelihood function 106  Journal of the American Statistical Association , March 2011  decouples in terms of the background and triggering functions , APPENDIX  which is why at each iteration the problem reduces to several Given point data ( tk , xk , yk ) N  and a self - exciting point process  decoupled density estimation problems .", 
+          "Several issues could k=1  model of the form ,  potentially arise here , one being that the method could converge to a local ( but not global ) minimum of the observed data ?", 
+          "( t , x , y ) = ?", 
+          "( t)?", 
+          "( x , y ) +  g( t ?", 
+          "tk , x ?", 
+          "xk , y ?", 
+          "yk ) , ( A.1 )  { k : t  log - likelihood function .", 
+          "Another , as pointed out in Sornette and  k < t }  Utkin ( 2009 ) , is that the sample size and domain size ( relative we iterate the following until convergence :  to the support of the triggering kernel ) play a key role in the Step 1 .", 
+          "Sample background events { ( tb , xb , yb ) } Nb and offspring/  accuracy of stochastic declustering .", 
+          "In numerical tests we have i  i  i  i=1  parent interpoint distances { ( to , xo , yo ) } No from P  found that at least O(1000 ) data points are needed in three di - i  i  i  i=1  n?1 . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "given pji probability los update angeles reported step time burglary event"
+    }, 
+    "given springparent pji background probability correctness use smooth update step assuming event": {
+      "full_title": "NO TITLE:given springparent pji background probability correctness use smooth update step assuming event", 
+      "paragraphs": [
+        [
+          "tremely small , but nonzero , values ( since the data is probabilis - More recently , nonparametric methods have been intro-  tic , the count in each bin can be less than 1 ) .", 
+          "Alternatively , the duced for self - exciting point process estimation ( Zhuang 2006 ;  large size of the data set prevents efficient use of off - grid meth-  Marsan and Lenglin 2008 ) .", 
+          "Consider space?time point data  {  ods such as Kernel Density Estimation ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "given springparent pji background probability correctness use smooth update step assuming event"
+    }, 
+    "given validation pji matrix probability give provide ing initial smooth update used step simulated guess event": {
+      "full_title": "NO TITLE:given validation pji matrix probability give provide ing initial smooth update used step simulated guess event", 
+      "paragraphs": [
+        [
+          "xi , yi )  Because Nb + No = N , the size of the sampled data at each and the probability that event j triggered event i , pji , is given by iteration allows for the use of Kernel Density Estimation .", 
+          "An - g( t  other issue is that the number of background and offspring i ?", 
+          "tj , xi ?", 
+          "xj , yi ?", 
+          "yj ) pji =  ( 9 )  ?", 
+          "( t  events , Nb and No , is changing at each iteration .", 
+          "Thus a fixed i , xi , yi )  bandwidth for any density estimation technique ( kernel smooth-  ( Zhuang , Ogata , and Vere - Jones 2002 ) .", 
+          "Let P denote the matrix ing , histogram , etc . )", 
+          "will over - smooth at some iterations and with entries pji ( note that the columns sum to one ) .", 
+          "Then sto - under - smooth at others .", 
+          "Therefore we employ variable band - chastic declustering can be used in the following way .", 
+          "Given width KDE ( alternatively Cross Validation could be used ) ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "given validation pji matrix probability give provide ing initial smooth update used step simulated guess event"
+    }, 
+    "grant angeles los earthquake university magnitude": {
+      "full_title": "NO TITLE:grant angeles los earthquake university magnitude", 
+      "paragraphs": [
+        [
+          "This work was supported in part by NSF FRG grant DMS-0968309 , ARO grant 58344-MA , NSF grant BCS-0527388 , ARO MURI grant 50363-  ?", 
+          "2011 American Statistical Association  MA - MUR , and AFOSR MURI grant FA9550 - 10 - 1 - 0569 .", 
+          "The authors would  Journal of the American Statistical Association  like to thank anonymous reviewers for many helpful comments and the LAPD  March 2011 , Vol .", 
+          "106 , No .", 
+          "493 , Applications and Case Studies for providing the burglary data used in this study .", 
+          "DOI : 10.1198/jasa.2011.ap09546  100  Mohler et al .", 
+          ": Self - Exciting Point Process Modeling of Crime 101  Figure 1 ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "grant angeles los earthquake university magnitude"
+    }, 
+    "jones selection pji gangs los rivalry smooth maximum event step vere violent parameter data estima": {
+      "full_title": "NO TITLE:jones selection pji gangs los rivalry smooth maximum event step vere violent parameter data estima", 
+      "paragraphs": [
+        [
+          "Back - shocks , c and d are parameters that control the behavior of the ground events occur independently according to a stationary kernel at the origin , and p and q are parameters that give the Poisson process ?", 
+          "( x , y ) , with magnitudes distributed indepen-  ( power law ) rate of decay of g.  dently of ?", 
+          "according to j( M ) .", 
+          "Each of these earthquakes then Standard models for the background intensity ?", 
+          "( x , y ) include elevates the risk of aftershocks and the elevated risk spreads in spline , kernel smoothing , and Voronoi estimation ( Silverman  space and time according to the kernel g( t , x , y , M ) .", 
+          "1986 ; Ogata and Katsura 1988 ; Okabe et al .", 
+          "2000 ) .", 
+          "In the case of fixed bandwidth kernel smoothing , the background intensity is estimated by  ?", 
+          "( x , y ) = ?", 
+          "?", 
+          "u( x ?", 
+          "xk , y ?", 
+          "yk ; ? )", 
+          ", ( 5 )  k  where ?", 
+          "is a parameter controlling the overall background rate .", 
+          "The events ( tk , xk , yk , Mk ) are assumed to be background events and in practice can be obtained through a declustering algorithm ( Zhuang , Ogata , and Vere - Jones 2002 ) . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "jones selection pji gangs los rivalry smooth maximum event step vere violent parameter data estima"
+    }, 
+    "lect likelihood target institute marginal journal analysis mathematics marked annals nieuwbeerta york references residential new criminology": {
+      "full_title": "NO TITLE:lect likelihood target institute marginal journal analysis mathematics marked annals nieuwbeerta york references residential new criminology", 
+      "paragraphs": [
+        [
+          "However , the estimate of the parameter ?", 
+          "is still close to ( 2010 ) , ?", 
+          "A New Estimation of the Decay of Aftershock Density With the true value ( see Table A.1 ) .", 
+          "Distance to the Mainshock , ?", 
+          "unpublished manuscript , available at http://  www.lgit.univ - savoie.fr/ dmars/ Publications.html .", 
+          "[ 105 ]  [ Received September 2009 .", 
+          "Revised October 2010 . ]", 
+          "Ogata , Y.", 
+          "( 1998 ) , ?", 
+          "Space?Time Point Process Models for Earthquake Occurrences , ?", 
+          "Annals of the Institute of Statistical Mathematics , 50 ( 2 ) , 379?402 . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "lect likelihood target institute marginal journal analysis mathematics marked annals nieuwbeerta york references residential new criminology"
+    }, 
+    "marginal journal analysis york new criminology": {
+      "full_title": "NO TITLE:marginal journal analysis york new criminology", 
+      "paragraphs": [
+        [
+          "[ 100 ]  entangling Exogenous From Endogenous Events in Time Series With Fore - Daley , D. , and Vere - Jones , D.", 
+          "( 2003 ) , An Introduction to the Theory of Point shocks , Main Shocks and Aftershocks , ?", 
+          "Physical Review E , 79 , 061110 .", 
+          "Processes ( 2nd ed . )", 
+          ", New York : Springer .", 
+          "[ 100,101 ]  [ 106 ]  Eggermont , P. P. B. , and LaRiccia , V. N.", 
+          "( 2001 ) , Maximum Penalized Likeli - Tita , G. , and Ridgeway , G.", 
+          "( 2007 ) , ?", 
+          "The Impact of Gang Formation on Local hood Estimation : Volume I : Density Estimation , New York : Springer .", 
+          "[ 105 ]  Farrell , G. , and Pease , K.", 
+          "( eds . )", 
+          "( 2001 ) , Repeat Victimization , New York : Crim - Patterns of Crime , ?", 
+          "Journal of Research on Crime and Delinquency , 44 ( 2 ) , inal Justice Press .", 
+          "[ 100 ]  208?237 .", 
+          "[ 100 ]  Felson , M.", 
+          "( 1998 ) , Crime and Everyday Life , Thousand Oaks : Pine Forge Press .", 
+          "Zhuang , J.", 
+          "( 2006 ) , ?", 
+          "Second - Order Residual Analysis of Spatiotemporal Point  [ 104 ]  Processes and Applications to Model Evaluation , ?", 
+          "Journal of the Royal Sta - Johnson , S. D.", 
+          "( 2008 ) , ?", 
+          "Repeat Burglary Victimisation : A Tale of Two Theo - tistical Society , Ser .", 
+          "B , 68 ( 4 ) , 635?653 .", 
+          "[ 102 ]  ries , ?", 
+          "Journal of Experimental Criminology , 4 , 215?240 .", 
+          "[ 100,103 , 105 ]  Zhuang , J. , Ogata , Y. , and Vere - Jones , D.", 
+          "( 2002 ) , ?", 
+          "Stochastic Declustering of Johnson , S. D. , Bernasco , W. , Bowers , K. J. , Elffers , H. , Ratcliffe , J. , Rengert , Space?Time Earthquake Occurences , ?", 
+          "Journal of the American Statistical G. , and Townsley , M.", 
+          "( 2007 ) , ?", 
+          "Space?Time Patterns of Risk : A Cross Na - Association , 97 ( 458 ) , 369?380 .", 
+          "[ 101,102 , 107 ]  Document Outline  Self - Exciting Point Process Modeling of Crime Introduction  Self - Exciting Point Process Models in Seismology  A Self - Exciting Point Process Model of Burglary  Results  Crime Forecasting :"
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "marginal journal analysis york new criminology"
+    }, 
+    "multivariate short marginal journal dorsogna uhlig analysis future scott york brantingham tompson new chainey wiley criminology": {
+      "full_title": "NO TITLE:multivariate short marginal journal dorsogna uhlig analysis future scott york brantingham tompson new chainey wiley criminology", 
+      "paragraphs": [
+        [
+          "[ 101 ]  REFERENCES  Ogata , Y. , and Katsura , K.", 
+          "( 1988 ) , ?", 
+          "Likelihood Analysis of Spatial Inhomo - Bernasco , W. , and Nieuwbeerta , P.", 
+          "( 2005 ) , ?", 
+          "How Do Residential Burglars Se - geneity for Marked Point Patterns , ?", 
+          "Annals of the Institute of Statistical lect Target Areas ?", 
+          "A New Approach to the Analysis of Criminal Location Mathematics , 40 , 20?39 .", 
+          "[ 101 ]  Choice , ?", 
+          "The British Journal of Criminology , 45 , 296?315 .", 
+          "[ 100,104 ]  Okabe , A. , Boots , B. , Sugihara , K. , and Chiu , S.", 
+          "( 2000 ) , Spatial Tessellations Bowers , K. J. , Johnson , S. D. , and Pease , K.", 
+          "( 2004 ) , ?", 
+          "Prospective Hot - Spotting : ( 2nd ed . )", 
+          ", Chichester : Wiley ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "multivariate short marginal journal dorsogna uhlig analysis future scott york brantingham tompson new chainey wiley criminology"
+    }, 
+    "pairs burglaries residential professor angeles los section stochastic declustering university maps": {
+      "full_title": "NO TITLE:pairs burglaries residential professor angeles los section stochastic declustering university maps", 
+      "paragraphs": [
+        [
+          "We propose that self - exciting point processes can be adapted Similarly , the occurrence of an earthquake is well known to for the purpose of crime modeling and are well suited to cap - increase the likelihood of another earthquake nearby in space ture the spatial - temporal clustering patterns observed in crime and time .", 
+          "For example , we plot in Figure 1 a histogram of the data .", 
+          "More specifically , spatial heterogeneity in crime rates can times between ?", 
+          "nearby earthquakes , ?", 
+          "pairs of earthquake events be treated using background intensity estimation and the self - separated in space by 110 kilometers or less , for all recorded exciting effects detected in crime data can be modeled with a earthquakes of magnitude 3.0 or greater in Southern California variety of kernels developed for seismological applications or during 2004?2005 .", 
+          "The histogram shows a spike at short times , using nonparametric methods .", 
+          "In Section 2 , we review self - indicating an increased likelihood of another event in the days exciting point processes in the context of seismological mod - following each earthquake .", 
+          "For a stationary Poisson process the eling .", 
+          "In Section 3 , we present a model for residential bur - distribution of times between pairs of events would be approx - glary based upon nonparametric methods for Epidemic Type imately uniform when the length of the time window is much Aftershock - Sequences models of earthquakes .", 
+          "Our methodol - larger than the longest time bin of the histogram . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "pairs burglaries residential professor angeles los section stochastic declustering university maps"
+    }, 
+    "pease bowers marginal fluctua tions true right background estimated left": {
+      "full_title": "NO TITLE:pease bowers marginal fluctua tions true right background estimated left", 
+      "paragraphs": [
+        [
+          "One benefit of using the nonparametric spike around 1?2 days in the plot of g 75( t ) is due to the pres - approach outlined above is that temporal and spatial changes ence of fast ?", 
+          "crime sprees , ?", 
+          "where most likely the same burglar in the rate of crime are automatically separated into those stem - visited several neighboring houses within a time span of a few ming from exogenous effects and those due to self - excitation .", 
+          "In minutes to several days ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "pease bowers marginal fluctua tions true right background estimated left"
+    }, 
+    "pji distances house spatial smooth due event travels step burglary fluctuations along data interpoint": {
+      "full_title": "NO TITLE:pji distances house spatial smooth due event travels step burglary fluctuations along data interpoint", 
+      "paragraphs": [
+        [
+          "Note also that the risk travels verti - this reason , nonparametric methods are appealing in the con - cally and horizontally ( along streets ) , more so than it does in text of crime in order to quickly gain insight into the forms of other directions .", 
+          "On the right , we plot the spatial ( x - coordinate ) ?", 
+          ", ?", 
+          ", and g. For this purpose we use the iterative procedure out - interpoint distances against the time interpoint distances ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "pji distances house spatial smooth due event travels step burglary fluctuations along data interpoint"
+    }, 
+    "prospective catalogs city predictive kde cells crimes declustered due hotspot crime maps meters predicted units neighborhood flagged police": {
+      "full_title": "NO TITLE:prospective catalogs city predictive kde cells crimes declustered due hotspot crime maps meters predicted units neighborhood flagged police", 
+      "paragraphs": [
+        [
+          "space marginal ?75( x , y ) ( right ) estimated using KDE from the background events sampled from P 75 .", 
+          "Here the estimated background rate exhibits temporal fluctua - city are likely to contain future crimes ( Bowers , Johnson , and  tions on a time scale of months/days , separate from the fluctua-  Pease 2004 ; Chainey , Tompson , and Uhlig 2008 ) .", 
+          "tions due to self - excitation .", 
+          "These fluctuations are likely caused For example , in Bowers , Johnson , and Pease ( 2004 ) a coarse by a number of factors such as seasonal , economic , and demo - grained kernel is used that decays inversely proportional to spa - graphic changes , as well as temporal variations in burglar routial and temporal distance .", 
+          "In particular , with spatial distance tine activities ( Felson 1998 ) .", 
+          "For example , residential burglary d in units of 1/2 cell widths and time t in units of weeks , the tends to have a higher weekday rate ( when victims are at work ) kernel in ( 11 ) is specified as compared to weekends .", 
+          "Similarly , the background rate is also spatially variable , g( t , d ) =  1  ( 12 )  ( 1 + t)(1 + d )  which is consistent with fixed environmental heterogeneity in crime opportunities , as well as variability in population density on the domain ( t , d ) ?", 
+          "[ 0 , 2 months ] ?", 
+          "[ 0 , 400 meters ] and 0  through space ( Bernasco and Nieuwbeerta 2005 ) .", 
+          "In seismol - otherwise ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "prospective catalogs city predictive kde cells crimes declustered due hotspot crime maps meters predicted units neighborhood flagged police"
+    }, 
+    "prospective city events cells crimes inferred hotspot crime maps priori meters predicted methodologies imposed flagged two opposed": {
+      "full_title": "NO TITLE:prospective city events cells crimes inferred hotspot crime maps priori meters predicted methodologies imposed flagged two opposed", 
+      "paragraphs": [
+        [
+          "Average daily percentage of crimes predicted plotted against percentage of cells flagged for 2005  burglary using 200 m by 200 m cells .", 
+          "Error bars correspond to the standard error .", 
+          "Prospective hotspot cutoff parameters are 400 meters and 8  weeks ( left ) and optimal parameters ( right ) are 200 meters and 39 weeks .", 
+          "Spatial background intensity ?", 
+          "( x , y ) smoothing bandwidth for the point process is 300 meters ( left ) selected by cross validation and 130 meters ( right ) selected to optimize the number of crimes predicted .", 
+          "the prospective hotspot strategy .", 
+          "For example , with 10 % of theft , where near - repeat effects play less of a role , prospective the city flagged the point process and prospective hotspot cor - hotspot maps tailored for near - repeat effects are likely to be rectly predict 660 and 547 crimes ( respectively ) out of 2627 .", 
+          "outperformed by simple Poisson estimation ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "prospective city events cells crimes inferred hotspot crime maps priori meters predicted methodologies imposed flagged two opposed"
+    }, 
+    "prospective city models cells crimes hotspot crime maps meters predicted events flagged gang": {
+      "full_title": "NO TITLE:prospective city models cells crimes hotspot crime maps meters predicted events flagged gang", 
+      "paragraphs": [
+        [
+          "The advantage of The difference in accuracy between the two methodologies can models of the form ( 10 ) is that the balance between exogenous be attributed to the crime hotspot map ?s failure to account for and endogenous contributions to crime rates is inferred from the background rate of crime .", 
+          "While prospective crime hotspot the data as opposed to being imposed a priori .", 
+          "maps used for crime prediction attempt to quantify the contagious spread of crime following past events , they fail to assess 6 .", 
+          "DISCUSSION  the likelihood of future ?", 
+          "background ?", 
+          "events , the initial events We showed how self - exciting point processes from seismol - that trigger crime clusters . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "prospective city models cells crimes hotspot crime maps meters predicted events flagged gang"
+    }, 
+    "prospective forecasting city cells crimes plot hotspot crime maps strategy meters predicted error average percentage comparison spacetime flagged day left": {
+      "full_title": "NO TITLE:prospective forecasting city cells crimes plot hotspot crime maps strategy meters predicted error average percentage comparison spacetime flagged day left", 
+      "paragraphs": [
+        [
+          "CRIME FORECASTING : POINT PROCESSES  KDE is less accurate than fixed bandwidth KDE.", 
+          "We there - VERSUS HOTSPOT MAPS  fore estimate ?", 
+          "( x , y ) in Equation ( 10 ) using fixed bandwidth Gaussian KDE , with 20-fold cross validation used to select the Crime hotspot maps are a well - established tool for visualiza - bandwidth ( Silverman 1986 ) .", 
+          "tion of space?time crime patterns and can be used as a method For every day k of 2005 , each model assesses the risk of bur - for prediction of near - repeat crimes .", 
+          "Given space?time crime glary within each of M 2 cells partitioning an 18 km by 18 km observations ( tk , xk , yk ) , crime hotspot maps are generated for a region of the San Fernando Valley in Los Angeles .", 
+          "Based on the time interval [ t ?", 
+          "T , t ] by overlaying a density plot of the func - data from the beginning of 2004 up through day k , the N cells tion ,  with the highest risk ( value of ? )", 
+          "are flagged yielding a prediction for day k + 1 .", 
+          "The percentage of crimes falling within the ?", 
+          "( t , x , y ) =  g( t ?", 
+          "tk , x ?", 
+          "xk , y ?", 
+          "yk ) , ( 11 )  flagged cells on day k + 1 is then recorded and used to measure t?", 
+          "T< tk< t  the accuracy of each model .", 
+          "onto a city map , where g( t , x , y ) is a space?time kernel .", 
+          "By flag"
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "prospective forecasting city cells crimes plot hotspot crime maps strategy meters predicted error average percentage comparison spacetime flagged day left"
+    }, 
+    "prospective forecasting within city kde cells crimes given hotspot crime maps meters predicted percentage spacetime flagged day": {
+      "full_title": "NO TITLE:prospective forecasting within city kde cells crimes given hotspot crime maps meters predicted percentage spacetime flagged day", 
+      "paragraphs": [
+        [
+          "Such a crime hotspot map is referred to as ?", 
+          "prospec - ogy , declustered catalogs are of great interest as they can be tive , ?", 
+          "as it uses past crimes , coupled with the contagious spread used in estimating the background rate of major earthquakes .", 
+          "of crime ( modeled by g ) , to estimate future relative crime risk Declustered crime catalogs could potentially be used by police across the city .", 
+          "It should be noted that the risk is relative because to distinguish between areas of a city with intrinsically high  ( 11 ) is not a point process intensity .", 
+          "crime rates and areas with temporarily high crime rates ( due to Here we compare the predictive accuracy of the self - exciting near - repeat effects ) .", 
+          "As the former arises due to structural prop - point process model developed in Section 3 to the prospective erties of a given neighborhood and the latter from behavioral crime hotspot map given by ( 11)?", 
+          "(12 ) .", 
+          "Because crime is local - characteristics of individual burglars , police and community re - ized in small regions of the city ( a commercial zone with no res - sponses would likely need to be different in each case .", 
+          "idential burglary may be located 100 meters from a neighborhood ) , we find that for predictive purposes variable bandwidth 5 ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "prospective forecasting within city kde cells crimes given hotspot crime maps meters predicted percentage spacetime flagged day"
+    }, 
+    "prospective smaller network algorithm city percentages cells crimes space hotspot crime better maps meters predicted stochastic flagged gang": {
+      "full_title": "NO TITLE:prospective smaller network algorithm city percentages cells crimes space hotspot crime better maps meters predicted stochastic flagged gang", 
+      "paragraphs": [
+        [
+          "ogy can be used for the purpose of crime modeling .", 
+          "In the fu - In order to disentangle the dependence of model accuracy on ture it may be desirable to tailor point process models specifi - parameter selection , in Figure 6 on the right we repeat the same cally for crime , taking into account the crime type and the lo - prediction exercise but with parameters of each model selected cal geography of the city .", 
+          "Based upon the insights provided by to yield the highest number of crimes predicted ( L 1 norm over nonparametric estimates , parametric models can be constructed 1 through 15 % of cells flagged ) .", 
+          "The optimal cutoff parameters that have advantages with respect to model fitting and simula - for the prospective hotspot map are 200 meters and 39 weeks .", 
+          "tion .", 
+          "Background rates can also be improved by incorporating With these parameter values , in particular the slow decay of g other data types ( in Johnson 2008 , housing density is used to in time , Equation ( 11 ) is closer to Poisson estimation .", 
+          "For the improve models of repeat victimization ) .", 
+          "In the case of gang point process model we only optimize the bandwidth used for violence , a hybrid network - point process approach may be use-  ?", 
+          "( x , y ) as the computational cost of the stochastic decluster - ful for capturing the self - exciting effects stemming from gang ing algorithm is relatively high .", 
+          "Whereas the bandwidth is esti - retaliations .", 
+          "Here increased risk may not diffuse in geographic mated to be approximately 300 meters using cross validation , a space , but instead may travel through the network space of gang smaller bandwidth , 130 meters , provides a higher level of pre - rivalry relations .", 
+          "dictive accuracy .", 
+          "This can be attributed to the spatially localized The methodology used in this study can be implemented for features of neighborhoods , and hence burglary . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "prospective smaller network algorithm city percentages cells crimes space hotspot crime better maps meters predicted stochastic flagged gang"
+    }, 
+    "prospective tailored smoothing city cells crimes hotspot crime maps meters predicted theft error events percentage strategy flagged left": {
+      "full_title": "NO TITLE:prospective tailored smoothing city cells crimes hotspot crime maps meters predicted theft error events percentage strategy flagged left", 
+      "paragraphs": [
+        [
+          "- In Figure 6 , on the left we plot the percentage of crimes ging the areas of the city where ?", 
+          "takes on its highest values , predicted averaged over the forecasting year against the per - crime hotspot maps can be used to indicate which areas in the centage of flagged cells for the self - exciting point process and Mohler et al .", 
+          ": Self - Exciting Point Process Modeling of Crime 105  Figure 6 .", 
+          "Forecasting strategy comparison ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "prospective tailored smoothing city cells crimes hotspot crime maps meters predicted theft error events percentage strategy flagged left"
+    }, 
+    "sample pji density percentages maximization could smooth map event relative step data method": {
+      "full_title": "NO TITLE:sample pji density percentages maximization could smooth map event relative step data method", 
+      "paragraphs": [
+        [
+          "other applications as well , for example refining point process For all percentages of cells flagged the prospective hotspot models of earthquakes .", 
+          "It could potentially be adapted , more map underperforms the point process , though for certain per - generally , to other second - order models of point processes .", 
+          "centages the relative underperformance is less .", 
+          "On the left in The stochastic declustering algorithm opens up the door to Figure 6 , the prospective hotspot map performs better ( relative a plethora of density estimation techniques ( Silverman 1986 ;  to the point process ) for smaller percentages of cells flagged , as  Scott 1992 ; Eggermont and LaRiccia 2001 ) that could be used the parameters are selected to account for near - repeat effects .", 
+          "to explore point processes in a way parametric methods do not On the right , the prospective hotspot map performs better for allow .", 
+          "larger percentages of flagged cells , since for these parameter In Marsan and Lenglin ( 2010 ) it is shown that the method values the model is more accurately estimating fixed environ - is an Expectation - Maximization ( EM ) type algorithm .", 
+          "At the mental heterogeneity ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "sample pji density percentages maximization could smooth map event relative step data method"
+    }, 
+    "sampled domain est run marginal support error iteration results times bandwidth estimation kernel density size": {
+      "full_title": "NO TITLE:sampled domain est run marginal support error iteration results times bandwidth estimation kernel density size", 
+      "paragraphs": [
+        [
+          "Step 2 .", 
+          "Estimate ?", 
+          "n , ?", 
+          "n , and gn from the sampled data .", 
+          "mensions for the iterates to converge to the right densities and Step 3 .", 
+          "Update Pn from ?", 
+          "n , ?", 
+          "n , and gn using ( 8 ) and ( 9 ) .", 
+          "the domain needs to be several times larger than the support"
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "sampled domain est run marginal support error iteration results times bandwidth estimation kernel density size"
+    }, 
+    "sampled est run carried marginal error iteration according simulation poisson generation exp corresponding simulating": {
+      "full_title": "NO TITLE:sampled est run carried marginal error iteration according simulation poisson generation exp corresponding simulating", 
+      "paragraphs": [
+        [
+          "L2 error Pn ?", 
+          "Pn?1 2 ( bottom left ) and Nb , the number of sampled background events , ( bottom right ) at the n th iteration for the method applied to the 5376 burglary events in Section 3 .", 
+          "Mohler et al .", 
+          ": Self - Exciting Point Process Modeling of Crime 107  and ?", 
+          "t be the sample standard deviation of each coordinate , estimate estimated number of background events versus the actual number of the triggering function as  background events in each of the five simulations to assess the abil - N  ity of the method to reconstruct the realized branching structure .", 
+          "In o  1  g  Figure A.2 , we plot the estimated marginals of g( t , x , y ) against the n( t , x , y ) = 1  N  ?", 
+          "i=1 x?", 
+          "y?", 
+          "t(2?", 
+          ")(3/2 ) D 3 i ( x ?", 
+          "xo)2  ( y ?", 
+          "yo)2  ( t ?", 
+          "to)2  ?", 
+          "exp ?", 
+          "i  ?", 
+          "i  ?", 
+          "i  .", 
+          "2?", 
+          "2  x D 2  2?", 
+          "2  2?", 
+          "2  i  y D 2  i  t D 2  i  The background rate is estimated similarly , where one - dimensional and two - dimenional Gaussian kernels are used to estimate ?", 
+          "n and ?", 
+          "n , respectively .", 
+          "In Zhuang , Ogata , and Vere - Jones ( 2002 ) , the authors rec - ommending using the 10th?100th nearest neighbor distance for Di . "
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "sampled est run carried marginal error iteration according simulation poisson generation exp corresponding simulating"
+    }, 
+    "sampled est run marginal top error iteration bottom mohler right exp estimated structure left": {
+      "full_title": "NO TITLE:sampled est run marginal top error iteration bottom mohler right exp estimated structure left", 
+      "paragraphs": [
+        [
+          "In order to estimate ?", 
+          "of the triggering kernel .", 
+          "Similar to analytical results for stan - n , ?", 
+          "n , and gn from the sampled data , we use variable bandwidth Kernel Density Estimation .", 
+          "To estimate gn , we first dard density estimation , it would be useful to have convergence scale the data { ( to , xo , yo ) } No to have unit variance in each coordinate results relating sample size , branching ratio , domain size , and i  i  i  i=1  and based upon the rescaled data compute Di , the k th nearest neighbor the bandwidth of the density estimators to the solution of the distance ( three - dimensional Euclidean distance ) to data point i. We fixed - point iteration .", 
+          "then transform the data back to its original scale and , letting ?", 
+          "x , ?", 
+          "y , Figure A.1 .", 
+          "L2 error Pn ?", 
+          "Pn?1 2 ( top left ) and Nb , the number of sampled background events , ( top right ) at the n th iteration for known point process model ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "sampled est run marginal top error iteration bottom mohler right exp estimated structure left"
+    }, 
+    "sampled iterations est run marginal error iteration yield observe values table simulated parameter": {
+      "full_title": "NO TITLE:sampled iterations est run marginal error iteration yield observe values table simulated parameter", 
+      "paragraphs": [
+        [
+          "Throughout we compute Di corresponding to ?", 
+          "using the 100th nearest neighbor distance and in higher dimensions we use the 15th nearest neighbor distance for Di corresponding to ?", 
+          "and g.  We validate the method by simulating ( A.1 ) with ?", 
+          "( t)?", 
+          "( x , y ) =  ?", 
+          "exp ?", 
+          "x 2  exp ?", 
+          "y 2  ( 2?", 
+          ")(4.5)2  2(4.5)2  2(4.5)2  and  g( t , x , y ) = ??", 
+          "exp(??", 
+          "t ) exp ?", 
+          "x 2  exp ?", 
+          "y 2  2?", 
+          "2  x  2?", 
+          "2  y  and comparing the estimates supplied by the method with the known distribution .", 
+          "The simulation was carried out by first simulating all background events according to the Poisson process ??.", 
+          "The rest of the simulation was carried out iteratively , where each point of each generation generates its own offspring according to the Poisson process g centered at the parent point .", 
+          "The process terminates at the n th generation when all events of the n th generation lie outside of the time window under consideration .", 
+          "In order to have a realization of the point process at steady state , the first and last 2000 points were disregarded in each simulation .", 
+          "In Figure A.1 , we plot the L2 error Pn ?", 
+          "Pn?1 2 at the n th iteration and the number of sampled background events Nb at the n th iteration against the true number of background events for one realization of the known point process ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "sampled iterations est run marginal error iteration yield observe values table simulated parameter"
+    }, 
+    "santa burglaries grant assistant professor clara angeles los mathematics university points": {
+      "full_title": "NO TITLE:santa burglaries grant assistant professor clara angeles los mathematics university points", 
+      "paragraphs": [
+        [
+          "ogy combines the idea of stochastic declustering with Kernel In the case of residential burglary , evidence indicates that Density Estimation in a novel way .", 
+          "In Section 5 , we compare an elevated risk exists for both a house that has been recently the predictive accuracy of our methodology with prospective burgled and its neighboring houses ( Farrell and Pease 2001 ;  crime hotspot maps .", 
+          "The results illustrate how crime hotspot maps can be improved using the self - exciting point process  Johnson et al .", 
+          "2007 ; Short et al .", 
+          "2009 ) .", 
+          "To illustrate this point framework .", 
+          "We validate the methodology with a simulated further , we plot in Figure 1 a histogram of the times between point process in the Appendix .", 
+          "?", 
+          "nearby burglaries , ?", 
+          "residential burglaries separated in space by 200 meters or less , for all recorded residential burglaries within 2 ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "santa burglaries grant assistant professor clara angeles los mathematics university points"
+    }, 
+    "statistical grant professor department nsf irvine angeles los muri university aro": {
+      "full_title": "NO TITLE:statistical grant professor department nsf irvine angeles los muri university aro", 
+      "paragraphs": [
+        [
+          "SELF?EXCITING POINT PROCESS MODELS  an 18 km by 18 km region of the San Fernando Valley in Los IN SEISMOLOGY  Angeles during 2004?2005 .", 
+          "Again we observe a spike at short A space?time point process N( t , x , y ) is typically character - ized via its conditional intensity ?", 
+          "( t , x , y ) , which may be defined as the limiting expected rate of the accumulation of points G. O. Mohler is Assistant Professor , Department of Mathematics and Computer Science , Santa Clara University , Santa Clara , CA 95053 ( E - mail : around a particular spatial - temporal location , given the history  gmohler@scu.edu ) .", 
+          "M. B. Short is CAM Assistant Adjunct Professor , Depart - H t of all points up to time t ( Daley and Vere - Jones 2003 ) :  ment of Mathematics , University of California Los Angeles , Los Angeles , CA 90095 ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "statistical grant professor department nsf irvine angeles los muri university aro"
+    }, 
+    "statistical grant professor nsf irvine angeles los american muri university association aro": {
+      "full_title": "NO TITLE:statistical grant professor nsf irvine angeles los american muri university association aro", 
+      "paragraphs": [
+        [
+          "P. J. Brantingham is Associate Professor , Department of Anthropology , ?", 
+          "( t , x , y ) =  lim  E N{( t , t + t ) ?", 
+          "( x , x + x ) University of California Los Angeles , Los Angeles , CA 90095 .", 
+          "F. P. Schoent , x , y?0  berg is Professor , Department of Statistics , University of California Los Angeles , Los Angeles , CA 90095 .", 
+          "G. E. Tita is Associate Professor , Department  ?", 
+          "( y , y + y)}|H t /( t x y ) .", 
+          "( 1 ) of Criminology , Law , and Society , University of California Irvine , Irvine , CA 92697 ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "statistical grant professor nsf irvine angeles los american muri university association aro"
+    }, 
+    "still est run see density marginal decay however aftershock true estimation close new estimated science": {
+      "full_title": "NO TITLE:still est run see density marginal decay however aftershock true estimation close new estimated science", 
+      "paragraphs": [
+        [
+          "Estimated ( circles ) and actual ( solid line ) marginals of Run 4 est .", 
+          "13.30 0.0135 0.1407 0.2049 5.6185 3975.3  4015  g( t , x , y ) on the 75th iteration .", 
+          "Top is the marginal g( x ) , in the middle Run 5 est .", 
+          "11.27 0.0147 0.1317 0.2102 5.7652 3948.9  3977  is the marginal g( y ) , and lower figure is marginal g( t ) .", 
+          "108  Journal of the American Statistical Association , March 2011  actual distributions on the 75th iteration of the stochastic declustering tional Assessment of Residential Burglary Victimization , Journal of Quan - algorithm .", 
+          "The estimated time marginal density deviates from the true titative Criminology , 23 , 201?219 .", 
+          "[ 100 ]  density at the origin due to the jump discontinuity of the exponential Marsan D. , and Lenglin , O.", 
+          "( 2008 ) , ?", 
+          "Extending Earthquakes Reach Through Cascading , Science , 319 , 1076?1079 .", 
+          "[ 102 ]  distribution ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "still est run see density marginal decay however aftershock true estimation close new estimated science"
+    }, 
+    "violence street excitation rival professor well local angeles los gang known retaliatory university": {
+      "full_title": "NO TITLE:violence street excitation rival professor well local angeles los gang known retaliatory university", 
+      "paragraphs": [
+        [
+          "Self - Exciting Point Process Modeling of Crime G. O. MOHLER , M. B. SHORT , P. J. BRANTINGHAM , F. P. SCHOENBERG , and G. E. TITA Highly clustered event sequences are observed in certain types of crime data , such as burglary and gang violence , due to crime - specific patterns of criminal behavior .", 
+          "Similar clustering patterns are observed by seismologists , as earthquakes are well known to increase the risk of subsequent earthquakes , or aftershocks , near the location of an initial event .", 
+          "Space?time clustering is modeled in seismology by self - exciting point processes and the focus of this article is to show that these methods are well suited for criminological applications .", 
+          "We first review self - exciting point processes in the context of seismology .", 
+          "Next , using residential burglary data provided by the Los Angeles Police Department , we illustrate the implementation of self - exciting point process models in the context of urban crime .", 
+          "For this purpose we use a fully nonparametric estimation methodology to gain insight into the form of the space?time triggering function and temporal trends in the background rate of burglary .", 
+          "KEY WORDS :  Crime hotspot ; Epidemic Type Aftershock Sequences ( ETAS ) ; Point process .", 
+          "1 .", 
+          "INTRODUCTION  times , indicating an increased likelihood of victimization within a few hundred meters and several days of each burglary .", 
+          "Criminological research has shown that crime can spread Self - excitation is also found in gang violence data , as an through local environments via a contagion - like process ( John-  event involving rival gangs can lead to retaliatory acts of vi-  son 2008 ) .", 
+          "For example , burglars will repeatedly attack clusters olence .", 
+          "In Figure 2 , we plot the times of all recorded violent of nearby targets because local vulnerabilities are well known to crimes between the gang known as ?", 
+          "Locke Street ?", 
+          "and the ri - the offenders ( Bernasco and Nieuwbeerta 2005 ) ."
+        ]
+      ], 
+      "score": 0.0, 
+      "title": "violence street excitation rival professor well local angeles los gang known retaliatory university"
+    }
+  }, 
+  "subject": "Self-Exciting Point Process Modeling of  (319)"
+}

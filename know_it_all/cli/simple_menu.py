@@ -1,13 +1,13 @@
 __author__ = 'mrittha'
 
-import talker
+import know_it_all.cli.talker as talker
 
 
 def ask_list(items):
     in_choice = True
     while in_choice:
         for i, v in enumerate(items):
-            print i, v
+            print(i, v)
         selection = talker.ask("What is your choice? (q to quit)")
         if selection.upper() == 'Q':
             return None

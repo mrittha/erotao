@@ -1,3 +1,15 @@
 TODO:
 use word to vec on the brown corpus.  How does that compare
 to the tags used?
+
+So this is a basic reading comprehension sort of thing.
+1. time, score
+
+
+1. Break the system into 
+    1. knowledge
+        1. textual knowledge
+        2. chunks
+    2. measurement
+        1. generation of measures
+        2. evaluation of measures.

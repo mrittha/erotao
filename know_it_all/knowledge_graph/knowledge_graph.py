@@ -2,9 +2,6 @@ __author__ = 'mrittha'
 
 import wikipedia
 import networkx as nx
-import unicodedata
-
-
 
 
 if __name__ == "__main__":
@@ -15,11 +12,11 @@ if __name__ == "__main__":
 
     main_root=topics[0].encode('ascii', 'xmlcharrefreplace')
     nodes[main_root]=0
-    print topics
+    print(topics)
     for topic in topics[1:]:
         new_topics = wikipedia.search(topic)[:10]
         root=topic.encode('ascii', 'xmlcharrefreplace')
-        print root,new_topics
+        print(root,new_topics)
         if root in nodes:
             root_number=nodes[root]
         else:
@@ -35,6 +32,6 @@ if __name__ == "__main__":
                     #print node,node_number
                 node_number=nodes[node]
                 G.add_node(nodes[node],label=node)
-                print root,'->',node
+                print(root,'->',node)
                 G.add_edge(nodes[root], nodes[node])
     nx.write_dot(G, search_term.replace(' ','_')+".dot")
