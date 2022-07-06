@@ -17,7 +17,7 @@ The purpose of this code is to take a bit text, and attempt to derive questions 
 Eventually,  it should be compatible with flashcards and mindmapping.
 
 
-##Testing
+## Testing
 `pytest  --cov-config=.coveragerc --cov=. .`
 #### Generate coverage report at html, showing coverage details
 `pytest  --cov-report html --cov-config=.coveragerc --cov=. .`
