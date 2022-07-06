@@ -1,0 +1,26 @@
+[run]
+omit =
+    pipeline_registry/tests/*.py
+    .venv/*
+    .env/*
+    */__init__.py
+    */*.sql
+    */*.json
+    */test_*.py
+    */*_test.py
+    scripts/*
+    */cli.py
+    */cloud_run.py
+    resources/*
+    resources_test/*
+
+[report]
+exclude_lines =
+    pragma: no cover
+    ignore_in_test_coverage
+
+[html]
+directory = coverage_html_report
+
+[xml]
+output = ./coverage.xml

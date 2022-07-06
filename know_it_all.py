@@ -157,7 +157,8 @@ def study_section_file(filename):
 def study_file(filename:str):
     text=''
     if filename.endswith("epub"):
-        text=rebook.to_text(filename)
+        path=rebook.to_sections(filename)
+        study_section_file(path)
     elif filename.endswith("pdf"):
         text=rpdf.to_text(filename)
     elif filename.endswith("txt"):
