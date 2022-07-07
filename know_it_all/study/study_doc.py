@@ -9,15 +9,15 @@ from toolz import merge,get_in
 
 VERSION="0.1"
 
-def write(data,path):
+def write(doc,path):
     with open(path,'w') as f:
-        f.write(json.dumps(data,indent=4))
+        f.write(json.dumps(doc,indent=4))
 
 
 def read(path):
     with open(path) as f:
-        data=json.reads(f.read())
-    return data
+        doc=json.reads(f.read())
+    return doc
 
 def create(title=""):
     return {
@@ -29,32 +29,32 @@ def create(title=""):
         'score':""
     }
 
-def section_names(data):
-    return data.get('toc',[])
+def section_names(doc):
+    return doc.get('toc',[])
 
-def add_section(data,section):
+def add_section(doc,section):
     section_title=sec.get_title(section)
-    if section_title in section_names(data):
+    if section_title in section_names(doc):
         raise ValueError(f'Section title {section_title} already exists. Unable to add.')
     else:
-        data['toc']=section_names(data)+[section_title]
-        data['sections']=merge(data.get('sections',{}),{section_title:section})
-    return data
+        doc['toc']=section_names(doc)+[section_title]
+        doc['sections']=merge(doc.get('sections',{}),{section_title:section})
+    return doc
 
-def update_section(data,section):
+def update_section(doc,section):
     section_title=sec.get_title(section)
-    if section_title not in section_names(data):
+    if section_title not in section_names(doc):
         raise ValueError(f'Section title {section_title} does not exist. Unable to update.')
     else:
-        data['sections']=merge(data.get('sections',{}),{section_title:section})
-    return data
+        doc['sections']=merge(doc.get('sections',{}),{section_title:section})
+    return doc
 
-def get_section(data,section_title):
-    return get_in(['sections',section_title],data,{})
+def get_section(doc,section_title):
+    return get_in(['sections',section_title],doc,{})
 
-def to_text(data):
+def to_text(doc):
     text=[]
-    for section_title in section_names(data):
-        text.append(sec.to_text(get_section(data,section_title)))
+    for section_title in section_names(doc):
+        text.append(sec.to_text(get_section(doc,section_title)))
     return "\n\n".join(text)
 

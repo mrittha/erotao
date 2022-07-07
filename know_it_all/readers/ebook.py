@@ -1,3 +1,4 @@
+from cmath import e
 import sys
 sys.path.append('c:\\code\\erotao')
 
@@ -9,6 +10,7 @@ import json
 from pprint import pprint
 
 
+from know_it_all.study import study_doc as sd,section as sec,paragraph as par,questions as q
 import know_it_all.text_processor.chunk_o_learning as col
 
 # from https://github.com/ZA3karia/PDF2TEXT/blob/master/ebook_to_text.ipynb
@@ -53,35 +55,31 @@ def epub2text(epub_path):
     ttext = thtml2ttext(chapters)
     return ttext    
 
-def build_chapter(chapter, enumeration):
-    title=f"Section_{enumeration}"
-    paragraphs=col.get_paragraphs([chapter])
-    chapter_section={ "full_title":title,
-              "title":title,
-              "paragraphs":paragraphs}
-    
-    return title,chapter_section
 
 
 def to_paragraphs(text):
     return text.split('  ')
 
-def to_sections(path):
-    chapters=epub2text(path)
-    document={'section_list':[],
-              'sections':{}
-    }
-    for i,chapter in enumerate(chapters):
-        title,section_chapter=build_chapter(chapter,i)
-        document['section_list'].append(title)
-        document['sections'][title]=section_chapter
-    filename=os.path.basename(path)+".json"
-    filepath=f"C:\\code\\erotao\\know_it_all\\subjects\\{filename}"
-    if not os.path.exists(filepath):
-        with open(filepath,'w') as f:
-            f.write(json.dumps(document,indent=4))
-    return filepath
 
+def build_section(epub_section, enumeration):
+    title=f"Section_{enumeration}"
+    section=sec.create(title=title)
+    lists_of_sentences=col.get_paragraphs([epub_section])
+    for i,p in enumerate(lists_of_sentences):
+        paragraph=par.create(f"Paragraph_{i}")
+        for sentence in p:
+            paragraph=par.add_sentence(paragraph,sentence)
+        section=sec.add_paragraph(section,paragraph)
+    return section
+
+def to_study_doc(path):
+    base_filename=os.path.basename(path)
+    epub_sections=epub2text(path)
+    document=sd.create(title=base_filename)
+    for i,epub_section in enumerate(epub_sections):
+        section=build_section(epub_section,i)
+        document=sd.add_section(document,section)
+    return document
 
 
 
@@ -91,14 +89,16 @@ def to_text(path):
     return text
 
 
-
-
-
 if __name__=="__main__":
     #to_sections(r"C:\attic\docs\A Quick Guide to Cloud Types (2022.07.05-21.56.17Z).epub")
     path=r"C:\attic\docs\A Quick Guide to Cloud Types (2022.07.05-21.56.17Z).epub"
-    text=to_text(path)
-    pprint(to_paragraphs(text))
+    base_filename=os.path.basename(path)
+    filename=base_filename+".json"
+    document=to_study_doc(path)
+    document=q.add_simple_clozures(document)
+    sd.write(document,f"C:\\code\\erotao\\study_docs\\{filename}")
+
+    #pprint(to_paragraphs(text))
     #with open("C:\code\memory_palace\data\9780470276808-Chapter-1-Cluster-analysis_epub.txt",'w',encoding="utf-8") as f:
     #    f.write(text)
 
