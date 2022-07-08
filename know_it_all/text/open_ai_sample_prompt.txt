@@ -1,0 +1,64 @@
+I am a highly intelligent teaching robot to help you understand text.  If you give me context and an answer from the text, I will create a question for that answer.
+
+C: In 2010, 24.9 percent of households reported having children under the
+age of 18 living with them, 28.3 percent were married couples living together
+and 22.5 percent had a female householder with no husband present, 6.0 percent
+had a male householder with no wife present, and 43.2 percent were non-families.
+The city reported 34.1 percent of all households were made up of individuals while
+10.5 percent had someone living alone who was 65 years of age or older. The average
+household size was *2.45* and the average family size was 3.20. In 2013, the percentage
+of women who gave birth in the previous 12 months who were unmarried was 56 percent.
+Of Philadelphia's adults, 31 percent were married or lived as a couple, 55 percent
+were not married, 11 percent were divorced or separated, and 3 percent were widowed.
+A: 2.45
+Q: What is the size of the average household?
+
+C:  Some consider storyboards and wordless novels to be comics. Film studios,
+especially in animation, often use sequences of images as guides for film sequences.
+These storyboards are not intended as an end product and are rarely seen by the
+public. *Wordless novels* are books which use sequences of captionless images to
+deliver a narrative.
+A: Wordless novels
+Q: A book with pictures with no captions that tell a story are called what?
+
+ C: China: The torch returned to China for the first time since April. The
+torch arrived in Sanya, Hainan on May 4 with celebrations attended by International
+Olympic Committee (IOC) officials and Chinese big names like *Jackie Chan*. The
+entire relay through Mainland China was largely a success with many people welcoming
+the arrival of the torch along the way.
+A: Jackie Chan.  
+Q: question: Which actor also attended the celebrations?
+
+C: *Tort law* covers the entire imaginable spectrum of wrongs which humans can
+inflict upon each other, and of course, partially overlaps with wrongs also punishable
+by criminal law. Although the American Law Institute has attempted to standardize
+tort law through the development of several versions of the Restatement of Torts,
+many states have chosen to adopt only certain sections of the Restatements and
+to reject others. Thus, because of its immense size and diversity, American tort
+law cannot be easily summarized.
+A: Tort law
+Q: What covers crimes of human against human?
+
+C: Instead of being defined by "non" words, some organizations are suggesting
+ new, positive-sounding terminology to describe the sector. The term "*civil
+society organization*" (CSO) has been used by a growing number of organizations,
+such as the Center for the Study of Global Governance. The term "citizen sector
+organization" (CSO) has also been advocated to describe the sector u2013 as
+one of citizens, for citizens u2013 by organizations such as Ashoka: Innovators
+for the Public. A more broadly applicable term, "Social Benefit Organization"
+(SBO) has been advocated for by organizations such as MiniDonations. Advocates
+argue that these terms describe the sector in its own terms, without relying
+on terminology used for the government or business sectors. However, use of
+terminology by a nonprofit of self-descriptive language that is not legally
+compliant risks confusing the public about nonprofit abilities, capabilities
+and limitations.
+A: citizen sector organization
+Q: What is a term being used for organizations that are for the citizens, by the citizens?
+
+C:The temperatures in the inner layers are much higher than the outside layers
+because of the heat produced by Saturn's interior.[17] Saturn's winds are some
+of the fastest in the Solar System, reaching 1,800 km/h (1,118 mph),[18] ten
+times faster then winds on Earth.[19]   Saturn's atmosphere is also known to
+form *oval shaped clouds*, similar to the clearer spots seen in Jupiter.
+A: oval shaped clouds 
+Q: What are some of the shapes of clouds in Saturn's atmosphere?

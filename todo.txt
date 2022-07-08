@@ -2,6 +2,14 @@ TODO:
 use word to vec on the brown corpus.  How does that compare
 to the tags used?
 
+break text into sections:
+
+section
+page/paragraph 
+sentence
+
+
+
 So this is a basic reading comprehension sort of thing.
 1. time, score
 

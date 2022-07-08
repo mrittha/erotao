@@ -34,13 +34,14 @@ def create_clozure(sentence):
     location, tag = any_noun(tags)
     if not location:
         return None
-    answer = {}
-    answer['original'] = sentence
-    answer['word'] = tag[0]
-
+    
     words = [w[0] for w in tags]
     words[location] = ''.join(['_'] * len(tag[0]))
-    answer['clozure'] = ' '.join(words)
+
+    answer = {'answer':tag[0],
+              'original':sentence,
+              'question':' '.join(words),
+              'score':1.0}
 
     return answer
 

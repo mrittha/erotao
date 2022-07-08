@@ -16,7 +16,7 @@ def write(doc,path):
 
 def read(path):
     with open(path) as f:
-        doc=json.reads(f.read())
+        doc=json.loads(f.read())
     return doc
 
 def create(title=""):
@@ -33,28 +33,28 @@ def section_names(doc):
     return doc.get('toc',[])
 
 def add_section(doc,section):
-    section_title=sec.get_title(section)
-    if section_title in section_names(doc):
-        raise ValueError(f'Section title {section_title} already exists. Unable to add.')
+    section_name=sec.get_title(section)
+    if section_name in section_names(doc):
+        raise ValueError(f'Section title {section_name} already exists. Unable to add.')
     else:
-        doc['toc']=section_names(doc)+[section_title]
-        doc['sections']=merge(doc.get('sections',{}),{section_title:section})
+        doc['toc']=section_names(doc)+[section_name]
+        doc['sections']=merge(doc.get('sections',{}),{section_name:section})
     return doc
 
 def update_section(doc,section):
-    section_title=sec.get_title(section)
-    if section_title not in section_names(doc):
-        raise ValueError(f'Section title {section_title} does not exist. Unable to update.')
+    section_name=sec.get_title(section)
+    if section_name not in section_names(doc):
+        raise ValueError(f'Section title {section_name} does not exist. Unable to update.')
     else:
-        doc['sections']=merge(doc.get('sections',{}),{section_title:section})
+        doc['sections']=merge(doc.get('sections',{}),{section_name:section})
     return doc
 
-def get_section(doc,section_title):
-    return get_in(['sections',section_title],doc,{})
+def get_section(doc,section_name):
+    return get_in(['sections',section_name],doc,{})
 
 def to_text(doc):
     text=[]
-    for section_title in section_names(doc):
-        text.append(sec.to_text(get_section(doc,section_title)))
+    for section_name in section_names(doc):
+        text.append(sec.to_text(get_section(doc,section_name)))
     return "\n\n".join(text)
 

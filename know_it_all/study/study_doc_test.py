@@ -4,28 +4,30 @@ from pprint import pprint
 
 def create_section_1():
     return {'last_studied': '',
-                'paragraphs': [{'last_studied': '',
+                'paragraph_titles':['p1','p2'],
+                'paragraphs': {'p1':{'last_studied': '',
                  'questions': [],
                  'score': '',
                  'sentences': ['Test sentence', 'Test sentence2']},
-                {'last_studied': '',
+                 'p2':{'last_studied': '',
                  'questions': [],
                  'score': '',
-                 'sentences': ['Test sentence3', 'Test sentence4']}],
+                 'sentences': ['Test sentence3', 'Test sentence4']}},
                  'score': '',
                  'title': 'section 1'}
 
 
 def create_section_2():
     return {'last_studied': '',
-                'paragraphs': [{'last_studied': '',
+                'paragraph_titles':['p1','p2'],
+                'paragraphs': {'p1':{'last_studied': '',
                  'questions': [],
                  'score': '',
                  'sentences': ['Test sentence5', 'Test sentence6']},
-                {'last_studied': '',
+                 'p2':{'last_studied': '',
                  'questions': [],
                  'score': '',
-                 'sentences': ['Test sentence7', 'Test sentence8']}],
+                 'sentences': ['Test sentence7', 'Test sentence8']}},
                  'score': '',
                  'title': 'section 2'}     
 
@@ -59,7 +61,8 @@ def test_update_section():
     doc=sd.add_section(doc,section_1)
     section_1_delta=create_section_1()
 
-    p1={'last_studied': '',
+    p1={'title':'p3',
+        'last_studied': '',
         'questions': [],
         'score': '',
         'sentences': ['Test sentence10']}

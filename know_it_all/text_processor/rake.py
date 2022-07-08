@@ -38,7 +38,12 @@ EXTRA_STOP=["et","al"]
 
 
 
-def rake(text, page):
+def rake(text, section_id):
+    """
+    The rake algorithm builds a graph of words, 
+    
+    
+    """
     doc = nlp(text)
     phrases = []
     g=nx.Graph()
@@ -56,16 +61,22 @@ def rake(text, page):
                     current_phrase = []
             else:
                 pass
+        
+        #process the final phrase since we are no longer in the for loop
         if current_phrase != []:
             span = doc[current_phrase[0].i:current_phrase[-1].i + 1]
             if span.text != '':
                 phrases.append(span)
             current_phrase = []
-   # for p in phrases:
-    #    print(p)
+
+
+    #we just want to the total frequency across all of our tokens
     counts = frequencies([p.lemma_.lower() for p in concat(phrases)])
+    
+    #add the unique tokens to the graph
     for k,v in counts.items():
         g.add_node(k,size=v)
+    
     degree = {}
     for phrase in phrases:
         d = len(phrase)
@@ -80,7 +91,7 @@ def rake(text, page):
     phrase_scores = []
     seen_phrase = set()
     text_object = {"text": text,
-                   "page": page,
+                   "section": section_id,
                    "word count": len(doc),
                    "doc":doc
                    }

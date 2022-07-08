@@ -13,6 +13,8 @@ from pprint import pprint
 from know_it_all.study import study_doc as sd,section as sec,paragraph as par,questions as q
 import know_it_all.text_processor.chunk_o_learning as col
 
+
+
 # from https://github.com/ZA3karia/PDF2TEXT/blob/master/ebook_to_text.ipynb
 
 def epub2thtml(epub_path):
@@ -88,16 +90,30 @@ def to_text(path):
     text="\n".join(out)
     return text
 
+def create_study_doc_path(path):
+    study_doc_dir="C:\\code\\erotao\\study_docs\\"
+    base_filename=os.path.basename(path)
+    filename=base_filename+".json"
+    sd_path=f"{study_doc_dir}{filename}"
+    return sd_path
+
+
+def create_full_doc(path):
+    document=to_study_doc(path)
+    sd_path=create_study_doc_path(path)
+    document=q.add_simple_clozures(document)
+    document=q.add_raked_clozures(document)
+    sd.write(document,sd_path)
+    return document
+
+
+
+
 
 if __name__=="__main__":
     #to_sections(r"C:\attic\docs\A Quick Guide to Cloud Types (2022.07.05-21.56.17Z).epub")
     path=r"C:\attic\docs\A Quick Guide to Cloud Types (2022.07.05-21.56.17Z).epub"
-    base_filename=os.path.basename(path)
-    filename=base_filename+".json"
-    document=to_study_doc(path)
-    document=q.add_simple_clozures(document)
-    sd.write(document,f"C:\\code\\erotao\\study_docs\\{filename}")
-
+    create_full_doc(path)
     #pprint(to_paragraphs(text))
     #with open("C:\code\memory_palace\data\9780470276808-Chapter-1-Cluster-analysis_epub.txt",'w',encoding="utf-8") as f:
     #    f.write(text)
