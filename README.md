@@ -18,7 +18,7 @@ Eventually,  it should be compatible with flashcards and mindmapping.
 
 
 ## Testing
-`pytest  --cov-config=.coveragerc --cov=. .`
+pytest  --cov-config=.coveragerc --cov=. .
 #### Generate coverage report at html, showing coverage details
-`pytest  --cov-report html --cov-config=.coveragerc --cov=. .`
+pytest  --cov-report html --cov-config=.coveragerc --cov=. .
 
