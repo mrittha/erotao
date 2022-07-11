@@ -1,7 +1,9 @@
 import know_it_all.text_processor.clozure as clo
 import know_it_all.text_processor.rake as rake
+import know_it_all.text_processor.spacy_client as sc
 from know_it_all.study import study_doc as sd,section as sec,paragraph as par
 from pprint import pprint
+import re
 
 def add_simple_clozures(document):
     sections=sd.section_names(document)
@@ -51,7 +53,13 @@ def find_sentence_doc(document,search_string):
 def make_clojure_question_answer(sentence:str,c_string:str,score:float):
     #we could make this a case insensitive replace
     blanks='_'*len(c_string)
-    clozure=sentence.replace(c_string,blanks)
+    
+    # The following allows for case insensitive substitution
+    # It may run into problems if there are things which need to be
+    # escaped for the regular expression
+    clozure=re.sub(c_string,blanks,sentence,flags=re.I)
+    #clozure=sentence.replace(c_string,blanks)
+    
     return { 'question':clozure,
              'answer':c_string,
              'original':sentence,
@@ -62,13 +70,14 @@ def make_clojure_question_answer(sentence:str,c_string:str,score:float):
 
 def add_raked_clozures(document):
     text=sd.to_text(document)
-    result=rake.rake(text,document['title'])
-    phrases=result['phrase scores']
+    noun_phrases=sc.get_noun_phrases(text)
+    scored_phrases=rake.rake_phrases(noun_phrases)
+    scored_phrases.sort(reverse=True)
     
     #sort them so we start with the most 'important' phrases
     
     #only pick the top 10
-    for phrase in phrases[:10]:
+    for phrase in scored_phrases[:10]:
         score,span=phrase[:2]
         text=str(span)
         section_name,paragraph_name,sentence=find_sentence_doc(document,text)

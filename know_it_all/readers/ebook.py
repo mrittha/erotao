@@ -46,11 +46,11 @@ def chap2text(chap):
     return output
 
 def thtml2ttext(thtml):
-    Output = []
+    output = []
     for html in thtml:
         text =  chap2text(html)
-        Output.append(text)
-    return Output
+        output.append(text)
+    return output
 
 def epub2text(epub_path):
     chapters = epub2thtml(epub_path)
@@ -66,7 +66,7 @@ def to_paragraphs(text):
 def build_section(epub_section, enumeration):
     title=f"Section_{enumeration}"
     section=sec.create(title=title)
-    lists_of_sentences=col.get_paragraphs([epub_section])
+    lists_of_sentences=col.get_paragraphs(epub_section)
     for i,p in enumerate(lists_of_sentences):
         paragraph=par.create(f"Paragraph_{i}")
         for sentence in p:
@@ -77,6 +77,7 @@ def build_section(epub_section, enumeration):
 def to_study_doc(path):
     base_filename=os.path.basename(path)
     epub_sections=epub2text(path)
+    epub_sections=[ to_paragraphs(text) for text in epub_sections] 
     document=sd.create(title=base_filename)
     for i,epub_section in enumerate(epub_sections):
         section=build_section(epub_section,i)
@@ -98,9 +99,8 @@ def create_study_doc_path(path):
     return sd_path
 
 
-def create_full_doc(path):
+def create_full_doc(path,sd_path):
     document=to_study_doc(path)
-    sd_path=create_study_doc_path(path)
     document=q.add_simple_clozures(document)
     document=q.add_raked_clozures(document)
     sd.write(document,sd_path)
@@ -113,7 +113,7 @@ def create_full_doc(path):
 if __name__=="__main__":
     #to_sections(r"C:\attic\docs\A Quick Guide to Cloud Types (2022.07.05-21.56.17Z).epub")
     path=r"C:\attic\docs\A Quick Guide to Cloud Types (2022.07.05-21.56.17Z).epub"
-    create_full_doc(path)
+    to_study_doc(path)
     #pprint(to_paragraphs(text))
     #with open("C:\code\memory_palace\data\9780470276808-Chapter-1-Cluster-analysis_epub.txt",'w',encoding="utf-8") as f:
     #    f.write(text)

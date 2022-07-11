@@ -28,12 +28,14 @@ import know_it_all.text_processor.rake as rake
 from know_it_all.study import study_doc as sd,section as sec,paragraph as par,questions as q
 from pprint import pprint
 
+def question_count(questions,rate):
+    return max(1, math.trunc(len(questions) * rate))
 
-def study_questions(questions, rate):
+def study_questions(questions, count):
     if len(questions) < 1:
         return 0, 0
     points = 0
-    to_use = max(1, math.trunc(len(questions) * rate))
+    to_use = count
     possible_points = 0.0
     talker.print_and_talk(f"I will ask {str(to_use)} questions.")
 
@@ -76,10 +78,12 @@ def study_text_complex_clozures(text):
 def study_paragraph(paragraph:dict,q_type='fill_in_the_blank'):
     questions=par.get_questions(paragraph)
     #fill in the blank
+    count=question_count(questions,0.3)
     if q_type=='fill_in_the_blank':
-        score=study_questions(questions,0.3)
+        
+        score=study_questions(questions,count)
     elif q_type=='multiple_choice':
-        score=mc.ask_questions(questions)
+        score=mc.ask_questions(questions,count)
     paragraph['score']=score
     return paragraph
 
@@ -103,13 +107,14 @@ def study_section(document,selection):
         talker.ask('Hit enter when ready.')
         # for i in range(30):
         #    print '.'
-        paragraph = study_paragraph(paragraph)
+        paragraph = study_paragraph(paragraph,'multiple_choice')
         section=sec.update_paragraph(section,paragraph)
 
         if i+1>section['studied'][0]:
             section['studied']=(i+1,p_count)
 
         document=sd.update_section(document,section)
+    return document
 
 #def study_chunk(chunk):
 #    while True:
@@ -152,41 +157,41 @@ def study_text_file(filename):
         text = f.read()
     study_text(text)
 
-def study_section_file(filename):
-    """Expects files in the section json format.
-    uses that format to convert the file into a set of questions."""
-    chunk=col.section_file_to_chunk(filename)
-    talker.print_and_talk("I have loaded the file")
-    study_chunk(chunk)
+#def study_section_file(filename):
+#    """Expects files in the section json format.
+#    uses that format to convert the file into a set of questions."""
+#    chunk=col.section_file_to_chunk(filename)
+#    talker.print_and_talk("I have loaded the file")
+#    study_chunk(chunk)
 
-def study_study_doc(filepath:str):
+def study_a_study_doc(filepath:str):
     document=sd.read(filepath)
     while True:
         talker.print_and_talk("What section would you like to study?")
-        selection,_=simple_menu.ask_list(sd.section_names(document))
+        
+        selection=simple_menu.ask_list(sd.section_names(document))
         if not selection:
             return
-        document=study_section(document,selection)
+        document=study_section(document,selection[0])
         sd.write(document,filepath)
 
 
 def study_file(filename:str):
-    text=''
+    #text=''
     if filename.endswith("epub"):
         study_document_path=ebook.create_study_doc_path(filename)
-        if os.path.exists(study_document_path):
-            study_study_doc(study_document_path)
-        document=ebook.create_full_doc(filename)
-        study_study_doc(study_document_path)
+        if not os.path.exists(study_document_path):
+            ebook.create_full_doc(filename,study_document_path)
+        study_a_study_doc(study_document_path)
 
-    elif filename.endswith("pdf"):
-        text=rpdf.to_text(filename)
-    elif filename.endswith("txt"):
-        with open(filename,encoding='utf-8') as f:
-            text=f.read()
+    #elif filename.endswith("pdf"):
+    #    text=rpdf.to_text(filename)
+    #elif filename.endswith("txt"):
+    #    with open(filename,encoding='utf-8') as f:
+    #        text=f.read()
     else:
         raise ValueError(f'filename {filename} is of an unknown type based on file ending.')
-    study_text_complex_clozures(text)
+    #study_text_complex_clozures(text)
 
 def learn_wikipedia_subjects():
     done = False

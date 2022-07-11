@@ -6,6 +6,7 @@ A study doc is broken into sections, paragraphs and sentences.
 import json
 import know_it_all.study.section as sec
 from toolz import merge,get_in
+from pprint import pprint
 
 VERSION="0.1"
 
@@ -46,6 +47,7 @@ def update_section(doc,section):
     if section_name not in section_names(doc):
         raise ValueError(f'Section title {section_name} does not exist. Unable to update.')
     else:
+        #pprint({section_name:section})
         doc['sections']=merge(doc.get('sections',{}),{section_name:section})
     return doc
 
