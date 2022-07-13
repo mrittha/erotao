@@ -19,7 +19,7 @@ def open_ai_dummy(prompt):
 def generate_open_ai_questions(example_data,paragraph):
     
     questions=par.get_questions(paragraph)
-    questions=[ q for q in questions if q['type']=='complex_clojure']
+    questions=[ q for q in questions if q['type']=='complex_clozure']
     prompt=['I am an intelligent program to help you understand text.  If you give me context and an answer from the text, I will create a question for that answer.']
     sentences=par.get_sentences(paragraph)
     new_questions=[]
@@ -62,7 +62,7 @@ def generate_open_ai_questions(example_data,paragraph):
 def add_open_ai_questions(document):
     """
     Be aware that this causes cost!
-    The document also needs to have had the complex clojure questions added
+    The document also needs to have had the complex clozure questions added
     
     """
     example_data_file=os.getenv("QUESTION_ANSWER_DATA")
@@ -119,7 +119,7 @@ def find_sentence_sec(section,search_string):
 
 def find_sentence_doc(document,search_string):
     """
-    Given we have a certain clojure, we'll want to find the 
+    Given we have a certain clozure, we'll want to find the 
    
     """
     section_names=sd.section_names(document)
@@ -130,7 +130,7 @@ def find_sentence_doc(document,search_string):
             return sentence
     return None
 
-def make_clojure_question_answer(sentence:str,c_string:str,score:float):
+def make_clozure_question_answer(sentence:str,c_string:str,score:float):
     #we could make this a case insensitive replace
     blanks='_'*len(c_string)
     
@@ -144,7 +144,7 @@ def make_clojure_question_answer(sentence:str,c_string:str,score:float):
              'answer':c_string,
              'original':sentence,
              'score':score,
-             'type':'complex_clojure'
+             'type':'complex_clozure'
             }
     
 
@@ -163,7 +163,7 @@ def add_raked_clozures(document):
         text=str(span)
         section_name,paragraph_name,sentence=find_sentence_doc(document,text)
         if sentence:
-            question=make_clojure_question_answer(sentence,text,score)
+            question=make_clozure_question_answer(sentence,text,score)
             section=sd.get_section(document,section_name)
             paragraph=sec.get_paragraph(section,paragraph_name)
             paragraph=par.add_question(paragraph,question)

@@ -26,7 +26,7 @@
                             "original": "A Quick Guide to Cloud Types \n https://weatherworksinc.com/news/cloud-types",
                             "question": "A Quick Guide to Cloud Types _____ : //weatherworksinc.com/news/cloud-types",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         }
                     ]
                 }
@@ -78,49 +78,49 @@
                             "original": "Clouds are described by almost every adjective in the book, from pretty to ugly to ominous and breathtaking.",
                             "question": "Clouds are described by almost every _________ in the book , from pretty to ugly to ominous and breathtaking .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "note",
                             "original": "Making note of the cloud types can give you insight into impending weather conditions.",
                             "question": "Making ____ of the cloud types can give you insight into impending weather conditions .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "weather",
                             "original": "Let's learn more about the different cloud types and what type of weather you can expect from each.",
                             "question": "Let 's learn more about the different cloud types and what type of _______ you can expect from each .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "cloud",
                             "original": "Cumulus Cumulus clouds are probably the most well-known of the cloud types.",
                             "question": "Cumulus Cumulus clouds are probably the most well-known of the _____ types .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "atmosphere",
                             "original": "They generally form from convection, with air parcels rising vertically into the atmosphere (called updrafts) and condensing into the puffy, cotton-like clouds that we all know and love.",
                             "question": "They generally form from convection , with air parcels rising vertically into the __________ ( called updrafts ) and condensing into the puffy , cotton-like clouds that we all know and love .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "weather",
                             "original": "Typically, cumulus clouds are associated with pleasant weather where you can lie back on the grass and admire the sky.",
                             "question": "Typically , cumulus clouds are associated with pleasant _______ where you can lie back on the grass and admire the sky .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "question": "______________________ are probably the most well-known of the cloud types.",
                             "answer": "cumulus cumulus clouds",
                             "original": "Cumulus Cumulus clouds are probably the most well-known of the cloud types.",
                             "score": 8.331034482758621,
-                            "type": "complex_clojure"
+                            "type": "complex_clozure"
                         },
                         {
                             "question": "What are cumulus clouds typically associated with?",
@@ -144,7 +144,7 @@
                             "original": "[ Image removed ]",
                             "question": "[ _____ removed ]",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         }
                     ]
                 },
@@ -163,35 +163,35 @@
                             "original": "Above: Fair weather cumulus clouds over a field (Courtesy Wikipedia) Cumulonimbus If updrafts become stronger, those seemingly innocuous cumulus clouds may grow taller into what we call cumulonimbus clouds.",
                             "question": "Above : Fair weather cumulus clouds over a field ( Courtesy _________ ) Cumulonimbus If updrafts become stronger , those seemingly innocuous cumulus clouds may grow taller into what we call cumulonimbus clouds .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "rain",
                             "original": "These are the awe-inspiring and ominous clouds mainly observed during the summer months and can be indicative of developing thunderstorms, including lightning, hail, heavy rain and even tornadoes.",
                             "question": "These are the awe-inspiring and ominous clouds mainly observed during the summer months and can be indicative of developing thunderstorms , including lightning , hail , heavy ____ and even tornadoes .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "cumulonimbus",
                             "original": "The strongest thunderstorms can even produce cumulonimbus clouds that tower up to 60,000 feet!",
                             "question": "The strongest thunderstorms can even produce ____________ clouds that tower up to 60,000 feet !",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "question": "Above: Fair weather cumulus clouds over a field (Courtesy Wikipedia) Cumulonimbus If updrafts become stronger, those __________________________________ may grow taller into what we call cumulonimbus clouds.",
                             "answer": "seemingly innocuous cumulus clouds",
                             "original": "Above: Fair weather cumulus clouds over a field (Courtesy Wikipedia) Cumulonimbus If updrafts become stronger, those seemingly innocuous cumulus clouds may grow taller into what we call cumulonimbus clouds.",
                             "score": 13.13103448275862,
-                            "type": "complex_clojure"
+                            "type": "complex_clozure"
                         },
                         {
                             "question": "Above: ___________________________ over a field (Courtesy Wikipedia) Cumulonimbus If updrafts become stronger, those seemingly innocuous cumulus clouds may grow taller into what we call cumulonimbus clouds.",
                             "answer": "fair weather cumulus clouds",
                             "original": "Above: Fair weather cumulus clouds over a field (Courtesy Wikipedia) Cumulonimbus If updrafts become stronger, those seemingly innocuous cumulus clouds may grow taller into what we call cumulonimbus clouds.",
                             "score": 11.064367816091954,
-                            "type": "complex_clojure"
+                            "type": "complex_clozure"
                         },
                         {
                             "question": "What can cumulonimbus clouds develop into?",
@@ -215,7 +215,7 @@
                             "original": "[ Image removed ]",
                             "question": "[ _____ removed ]",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         }
                     ]
                 },
@@ -235,28 +235,28 @@
                             "original": "Above: Textbook example of a towering cumulonimbus cloud (Courtesy Wikipedia) Stratus Personally, stratus clouds are my least-favorite and I'm sure that likely goes for most people.",
                             "question": "Above : Textbook example of a towering cumulonimbus cloud ( ________ Wikipedia ) Stratus Personally , stratus clouds are my least-favorite and I 'm sure that likely goes for most people .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "sky",
                             "original": "These clouds, which look like a layer of gray blanketing the sky, are generally associated with wet conditions.",
                             "question": "These clouds , which look like a layer of gray blanketing the ___ , are generally associated with wet conditions .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "vapor",
                             "original": "They typically form when warm air is lifted over cold air, which allows the water vapor to condense rather uniformly, transforming the sky into a gray and dreary scene.",
                             "question": "They typically form when warm air is lifted over cold air , which allows the water _____ to condense rather uniformly , transforming the sky into a gray and dreary scene .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "rain",
                             "original": "In fact, stratus clouds can last for days and bring cool temperatures, persistent rain, drizzle, or even snow.",
                             "question": "In fact , stratus clouds can last for days and bring cool temperatures , persistent ____ , drizzle , or even snow .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         }
                     ]
                 },
@@ -273,7 +273,7 @@
                             "original": "[ Image removed ]",
                             "question": "[ _____ removed ]",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         }
                     ]
                 },
@@ -296,49 +296,49 @@
                             "original": "Above: Layer of stratus clouds (Courtesy Wikipedia) Cirrus Now on to my favorite type of cloud, cirrus clouds!",
                             "question": "Above : Layer of _______ clouds ( Courtesy Wikipedia ) Cirrus Now on to my favorite type of cloud , cirrus clouds !",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "ice",
                             "original": "They develop very high up in the atmosphere and are actually made up of tiny ice crystals.",
                             "question": "They develop very high up in the atmosphere and are actually made up of tiny ___ crystals .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "variety",
                             "original": "We can see cirrus clouds in a variety of scenarios including outflow from large scale storms, like nor'easters, tropical cyclones and even thunderstorm complexes.",
                             "question": "We can see cirrus clouds in a _______ of scenarios including outflow from large scale storms , like nor'easters , tropical cyclones and even thunderstorm complexes .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "precipitation",
                             "original": "They also form out ahead of warm fronts and can be indicative of upcoming precipitation.",
                             "question": "They also form out ahead of warm fronts and can be indicative of upcoming _____________ .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "sunshine",
                             "original": "While cirrus clouds may filter sunshine and make for a beautiful day, don\u2019t be fooled\u2026they can signify impending storms!",
                             "question": "While cirrus clouds may filter ________ and make for a beautiful day , don \u2019 t be fooled\u2026they can signify impending storms !",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "question": "They develop very high up in the atmosphere and are actually made up of _________________.",
                             "answer": "tiny ice crystals",
                             "original": "They develop very high up in the atmosphere and are actually made up of tiny ice crystals.",
                             "score": 9.0,
-                            "type": "complex_clojure"
+                            "type": "complex_clozure"
                         },
                         {
                             "question": "We can see cirrus clouds in a variety of scenarios including outflow from __________________, like nor'easters, tropical cyclones and even thunderstorm complexes.",
                             "answer": "large scale storms",
                             "original": "We can see cirrus clouds in a variety of scenarios including outflow from large scale storms, like nor'easters, tropical cyclones and even thunderstorm complexes.",
                             "score": 8.5,
-                            "type": "complex_clojure"
+                            "type": "complex_clozure"
                         },
                         {
                             "question": "What are cirrus clouds made of?",
@@ -369,7 +369,7 @@
                             "original": "[ Image removed ]",
                             "question": "[ _____ removed ]",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         }
                     ]
                 },
@@ -390,35 +390,35 @@
                             "original": "Above: Cirrus clouds on a beautiful day (Courtesy geograph.org.uk) Contrails Now we reach the clouds that are sometimes at the center of controversy, contrails.",
                             "question": "Above : ______ clouds on a beautiful day ( Courtesy geograph.org.uk ) Contrails Now we reach the clouds that are sometimes at the center of controversy , contrails .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "vapor",
                             "original": "No, they are not formed as a result of chemicals emitted into the atmosphere, but mainly because of the water vapor released by the exhaust of an aircraft.",
                             "question": "No , they are not formed as a result of chemicals emitted into the atmosphere , but mainly because of the water _____ released by the exhaust of an aircraft .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "environment",
                             "original": "When the aircraft releases the hot water vapor at such a high altitude, it becomes trapped in a very cold environment where it almost immediately condenses and forms a cloud.",
                             "question": "When the aircraft releases the hot water vapor at such a high altitude , it becomes trapped in a very cold ___________ where it almost immediately condenses and forms a cloud .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "cirrus",
                             "original": "Depending on how dry the upper atmosphere is, the contrail cloud may stick around for mere seconds or spread out and become cirrus clouds for hours.",
                             "question": "Depending on how dry the upper atmosphere is , the contrail cloud may stick around for mere seconds or spread out and become ______ clouds for hours .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "weather",
                             "original": "However, these clouds are not associated with any weather.",
                             "question": "However , these clouds are not associated with any _______ .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         }
                     ]
                 },
@@ -435,7 +435,7 @@
                             "original": "[ Image removed ]",
                             "question": "[ _____ removed ]",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         }
                     ]
                 },
@@ -456,49 +456,49 @@
                             "original": "Above: Contrails from the engines of a British Airways Boeing 747 (Courtesy Flickr.com) Lenticular The lenticular cloud is one of the more unusual cloud types and is more common to those living out west, especially in the Rocky Mountains.",
                             "question": "Above : Contrails from the engines of a British _______ Boeing 747 ( Courtesy Flickr.com ) Lenticular The lenticular cloud is one of the more unusual cloud types and is more common to those living out west , especially in the Rocky Mountains .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "hill",
                             "original": "This cloud resembles a lens and is typically positioned over a high hill or mountain.",
                             "question": "This cloud resembles a lens and is typically positioned over a high ____ or mountain .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "uplift",
                             "original": "As the wind blows against the mountains, it is forced upward and moisture condenses, forming a cloud that stays stationary until the uplift or moisture feed ends.",
                             "question": "As the wind blows against the mountains , it is forced upward and moisture condenses , forming a cloud that stays stationary until the ______ or moisture feed ends .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "precipitation",
                             "original": "Although these clouds could produce precipitation if dense enough, they are mainly an indicator of air turbulence downstream.",
                             "question": "Although these clouds could produce _____________ if dense enough , they are mainly an indicator of air turbulence downstream .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "UFO",
                             "original": "However, due to their unique shape, many times they have been mistaken for UFO sightings!",
                             "question": "However , due to their unique shape , many times they have been mistaken for ___ sightings !",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "question": "Above: Contrails from the engines of a ______________________ 747 (Courtesy Flickr.com) Lenticular The lenticular cloud is one of the more unusual cloud types and is more common to those living out west, especially in the Rocky Mountains.",
                             "answer": "british airways boeing",
                             "original": "Above: Contrails from the engines of a British Airways Boeing 747 (Courtesy Flickr.com) Lenticular The lenticular cloud is one of the more unusual cloud types and is more common to those living out west, especially in the Rocky Mountains.",
                             "score": 9.0,
-                            "type": "complex_clojure"
+                            "type": "complex_clozure"
                         },
                         {
                             "question": "As the wind blows against the mountains, it is forced upward and moisture condenses, forming a cloud that stays stationary until the uplift or __________________.",
                             "answer": "moisture feed ends",
                             "original": "As the wind blows against the mountains, it is forced upward and moisture condenses, forming a cloud that stays stationary until the uplift or moisture feed ends.",
                             "score": 8.5,
-                            "type": "complex_clojure"
+                            "type": "complex_clozure"
                         },
                         {
                             "question": "What is the source of the contrails in the accompanying image?",
@@ -529,7 +529,7 @@
                             "original": "[ Image removed ]",
                             "question": "[ _____ removed ]",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         }
                     ]
                 },
@@ -550,42 +550,42 @@
                             "original": "Above: Lenticular cloud over Mount Hood in Oregon (Courtesy Wiki Commons) Mammatus Finally, we have mammatus clouds.",
                             "question": "Above : Lenticular cloud over _____ Hood in Oregon ( Courtesy Wiki Commons ) Mammatus Finally , we have mammatus clouds .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "deck",
                             "original": "These almost look like little pouches or bubbles of cloud hanging from the above cloud deck.",
                             "question": "These almost look like little pouches or bubbles of cloud hanging from the above cloud ____ .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "weather",
                             "original": "Though their formation is still not completely known, they are generally associated with severe weather and usually extend from cumulonimbus clouds.",
                             "question": "Though their formation is still not completely known , they are generally associated with severe _______ and usually extend from cumulonimbus clouds .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "clouds",
                             "original": "Thus, you should always be alert for stronger thunderstorms if you ever see mammatus clouds!",
                             "question": "Thus , you should always be alert for stronger thunderstorms if you ever see mammatus ______ !",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "area",
                             "original": "Such clouds also inform pilots of turbulent flying conditions and they are instructed to avoid the area.",
                             "question": "Such clouds also inform pilots of turbulent flying conditions and they are instructed to avoid the ____ .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "question": "Such clouds also inform pilots of ___________________________ and they are instructed to avoid the area.",
                             "answer": "turbulent flying conditions",
                             "original": "Such clouds also inform pilots of turbulent flying conditions and they are instructed to avoid the area.",
                             "score": 8.25,
-                            "type": "complex_clojure"
+                            "type": "complex_clozure"
                         },
                         {
                             "question": "What do mammatus clouds tell pilots?",
@@ -609,7 +609,7 @@
                             "original": "[ Image removed ]",
                             "question": "[ _____ removed ]",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         }
                     ]
                 },
@@ -629,21 +629,21 @@
                             "original": "Above: Mammatus Clouds in Regina, Saskatchewan, Canada (Courtesy Wikipedia)\u00a0 Hopefully you can appreciate those beautiful, puffy masses of water in the sky whether you are an avid weather enthusiast or just curious when weather threatens.",
                             "question": "Above : Mammatus Clouds in Regina , Saskatchewan , Canada ( ________ Wikipedia ) Hopefully you can appreciate those beautiful , puffy masses of water in the sky whether you are an avid weather enthusiast or just curious when weather threatens .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "weather",
                             "original": "Not only can clouds make great photographs, but they can also provide insight into approaching weather, so keep an eye to the sky!",
                             "question": "Not only can clouds make great photographs , but they can also provide insight into approaching _______ , so keep an eye to the sky !",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "weather",
                             "original": "Are you obsessed with weather?",
                             "question": "Are you obsessed with _______ ?",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         }
                     ]
                 },
@@ -661,21 +661,21 @@
                             "original": "The Weather Lounge , a new podcast with hosts Brad Miller and Mike Mihalik, both of whom are also meteorologists.",
                             "question": "The Weather Lounge , a new podcast with hosts ____ Miller and Mike Mihalik , both of whom are also meteorologists .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "information",
                             "original": "Listen here:\u00a0 You can always find more weather information from us on",
                             "question": "Listen here : You can always find more weather ___________ from us on",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "question": "The Weather Lounge , a new podcast with _________________ and Mike Mihalik, both of whom are also meteorologists.",
                             "answer": "hosts brad miller",
                             "original": "The Weather Lounge , a new podcast with hosts Brad Miller and Mike Mihalik, both of whom are also meteorologists.",
                             "score": 9.0,
-                            "type": "complex_clojure"
+                            "type": "complex_clozure"
                         },
                         {
                             "question": "Who are the hosts of the Weather Lounge podcast?",
@@ -700,7 +700,7 @@
                             "original": "Facebook \u00a0and\u00a0 Twitter \u00a0.",
                             "question": "Facebook and _______ .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         }
                     ]
                 },
@@ -718,14 +718,14 @@
                             "original": "YouTube Channel \u00a0for weekly weather updates.",
                             "question": "YouTube Channel for weekly _______ updates .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "question": "YouTube Channel \u00a0for ______________________.",
                             "answer": "weekly weather updates",
                             "original": "YouTube Channel \u00a0for weekly weather updates.",
                             "score": 7.933333333333334,
-                            "type": "complex_clojure"
+                            "type": "complex_clozure"
                         },
                         {
                             "question": "What can users find on the YouTube Channel?",
@@ -750,7 +750,7 @@
                             "original": "Your contribution allows us to continue its development.",
                             "question": "Your ____________ allows us to continue its development .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         }
                     ]
                 }
@@ -790,14 +790,14 @@
                             "original": "It is distributed on an \u201cAS IS\u201d BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
                             "question": "It is distributed on an \u201c AS IS \u201d BASIS , WITHOUT WARRANTIES __ CONDITIONS OF ANY KIND , either express or implied .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "please",
                             "original": "This e-book is not an authoritative source: please, visit the",
                             "question": "This e-book is not an authoritative source : ______ , visit the",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         }
                     ]
                 },
@@ -816,14 +816,14 @@
                             "original": "original webpage .",
                             "question": "original _______ .",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         },
                         {
                             "answer": "c1.2",
                             "original": "0.8.17 / c1.2 L)",
                             "question": "0.8.17 / ____ L )",
                             "score": 1.0,
-                            "type": "simple_clojure"
+                            "type": "simple_clozure"
                         }
                     ]
                 }

@@ -42,7 +42,7 @@ def create_clozure(sentence):
               'original':sentence,
               'question':' '.join(words),
               'score':1.0,
-              'type':'simple_clojure'}
+              'type':'simple_clozure'}
 
     return answer
 
