@@ -1,9 +1,89 @@
+#import sys
+#sys.path.append(r'C:\code\erotao')
+
 import know_it_all.text_processor.clozure as clo
 import know_it_all.text_processor.rake as rake
 import know_it_all.text_processor.spacy_client as sc
 from know_it_all.study import study_doc as sd,section as sec,paragraph as par
+import know_it_all.clients.openai as oai
+import yaml
 from pprint import pprint
 import re
+import random
+import os
+
+
+def open_ai_dummy(prompt):
+    return "Q:Am I the question?"
+
+def generate_open_ai_questions(example_data,paragraph):
+    
+    questions=par.get_questions(paragraph)
+    questions=[ q for q in questions if q['type']=='complex_clojure']
+    prompt=['I am an intelligent program to help you understand text.  If you give me context and an answer from the text, I will create a question for that answer.']
+    sentences=par.get_sentences(paragraph)
+    new_questions=[]
+    if len(questions)>0 and len(sentences)>=2:
+        for question in questions:
+        #question=random.choice(questions)
+            examples=random.sample(example_data,10)
+            for example in examples:
+                if len('\n'.join(prompt))>2500:
+                    break
+                prompt.append('')
+                prompt.append(f"C:{example['context']}")
+                prompt.append(f"A:{example['answer']}")
+                prompt.append(f"Q:{example['question']}")
+                
+            
+            sentence_string=' '.join(sentences)
+            prompt.append('          ')            
+            prompt.append(f"C:{sentence_string}")
+            prompt.append(f"A:{question['answer']}")
+            string_prompt='\n'.join(prompt)
+            #print(string_prompt)
+            #print("Contacting Open AI")
+            #print(f"C:{sentence_string}")
+            response=oai.generate_question(string_prompt)
+            #response=open_ai_dummy(string_prompt)
+            #pull the possible question from the response
+            matches=re.findall("Q\:[\S ]+?\?",response,re.MULTILINE)
+            if len(matches)>0:
+                oai_question={'question':matches[0][2:],
+                'answer':question['answer'],
+                'original':question['original'],
+                'score':question['score'],
+                'type':'open_ai_question'
+                }
+                new_questions.append(oai_question)
+    return new_questions
+            
+
+def add_open_ai_questions(document):
+    """
+    Be aware that this causes cost!
+    The document also needs to have had the complex clojure questions added
+    
+    """
+    example_data_file=os.getenv("QUESTION_ANSWER_DATA")
+    with open(example_data_file) as f:
+        example_data=yaml.safe_load(f.read())
+
+
+
+
+    sections=sd.section_names(document)
+    for s in sections:
+        section=sd.get_section(document,s)
+        for paragraph in sec.get_paragraphs(section).values():
+            questions=generate_open_ai_questions(example_data,paragraph)
+            for question in questions:
+                paragraph=par.add_question(paragraph,question)
+            section=sec.update_paragraph(section,paragraph)
+        document=sd.update_section(document,section)            
+    return document
+
+
 
 def add_simple_clozures(document):
     sections=sd.section_names(document)
@@ -63,7 +143,8 @@ def make_clojure_question_answer(sentence:str,c_string:str,score:float):
     return { 'question':clozure,
              'answer':c_string,
              'original':sentence,
-             'score':score
+             'score':score,
+             'type':'complex_clojure'
             }
     
 
@@ -92,6 +173,12 @@ def add_raked_clozures(document):
             
             
     
+if __name__=="__main__":
+    
+    
+    study_doc=sd.read('C:\code\erotao\study_docs\A Quick Guide to Cloud Types (2022.07.05-21.56.17Z).epub.json')
+    study_doc=add_open_ai_questions(study_doc)
+    pprint(study_doc)
 
 
 

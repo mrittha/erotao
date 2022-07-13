@@ -103,6 +103,7 @@ def create_full_doc(path,sd_path):
     document=to_study_doc(path)
     document=q.add_simple_clozures(document)
     document=q.add_raked_clozures(document)
+    document=q.add_open_ai_questions(document)
     sd.write(document,sd_path)
     return document
 

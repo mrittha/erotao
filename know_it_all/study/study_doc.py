@@ -5,6 +5,7 @@ A study doc is broken into sections, paragraphs and sentences.
 """
 import json
 import know_it_all.study.section as sec
+import know_it_all.study.paragraph as par
 from toolz import merge,get_in
 from pprint import pprint
 
@@ -53,6 +54,17 @@ def update_section(doc,section):
 
 def get_section(doc,section_name):
     return get_in(['sections',section_name],doc,{})
+
+def get_paragraphs(doc):
+    all_paragraphs=[]
+    for section_name in section_names(doc):
+        section=get_section(doc,section_name)
+        paragraphs=sec.get_paragraphs(section).values()
+        all_paragraphs.extend(paragraphs)
+    return all_paragraphs        
+
+
+
 
 def to_text(doc):
     text=[]

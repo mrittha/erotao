@@ -41,7 +41,8 @@ def create_clozure(sentence):
     answer = {'answer':tag[0],
               'original':sentence,
               'question':' '.join(words),
-              'score':1.0}
+              'score':1.0,
+              'type':'simple_clojure'}
 
     return answer
 

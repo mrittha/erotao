@@ -16,6 +16,8 @@ The purpose of this code is to take a bit text, and attempt to derive questions 
 
 Eventually,  it should be compatible with flashcards and mindmapping.
 
+## Setting environment settings for powershell
+PS prompt>$env:OPENAI_API_KEY='<open ai key>'
 
 ## Testing
 pytest  --cov-config=.coveragerc --cov=. .
