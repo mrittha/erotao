@@ -1,0 +1,12 @@
+beautifulsoup4>=4.11.1
+EbookLib>=0.17.1
+fitz>=0.0.1.dev2
+networkx>=2.3
+nltk>=3.7
+numpy>=1.19.5
+pyttsx3>=2.90
+PyYAML>=6.0
+spacy>=3.1.2
+toolz>=0.10.0
+wikipedia>=1.4.0
+openai>=0.11.1

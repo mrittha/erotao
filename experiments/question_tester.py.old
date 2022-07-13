@@ -43,7 +43,6 @@ def gather_bits_by_id(all_bits):
 def gather_question_bits(sentence):
     question_bits=[]
     a_parse=parse(sentence,relations=True)
-    print a_parse
     pprint(a_parse)
     all_bits=a_parse.split(' ')
     ids=gather_bits_by_id(all_bits)
