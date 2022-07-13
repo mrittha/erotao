@@ -29,13 +29,19 @@ def ask_questions(questions:'list[dict]',count:int):
     for question in to_ask:
         answers=random_answers(questions,question)
         talker.print_and_talk(question['question'])
-        answer,_=sm.ask_list(answers)
-        if answer.lower()==question['answer'].lower():
-            score=score+question['score']
-            talker.print_and_talk(f'{answer} is correct!')
+        result=sm.ask_list(answers)
+        if result:
+            answer,_=result
+
+            if answer.lower()==question['answer'].lower():
+                score=score+question['score']
+                talker.print_and_talk(f'{answer} is correct!')
+            else:
+                talker.print_and_talk(f'{answer} is incorrect!')
+                talker.print_and_talk(f"The correct answer is: {question['answer']}")
         else:
-            talker.print_and_talk(f'{answer} is incorrect!')
-            talker.print_and_talk(f"The correct answer is: {question['answer']}")
+            talker.print_and_talk(f"Okay, I won't ask any more questions")
+            break
     talker.print_and_talk(f"You got {score} out of {available_score}")
     return score
 
